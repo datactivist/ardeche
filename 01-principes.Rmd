@@ -62,9 +62,9 @@ Pour l'inventeur du web, les administrations n’arrêtent le *database hugging*
 
 > Hans appelle ça le * database hugging *. Vous serrez votre base de données. Vous ne la laissez pas partir tant que vous n'en avez pas fait un joli site web. […] Faites-en donc un joli site. Mais avant cela, donnez-nous accès aux données non altérées. On veut des données. On veut des données non altérées. **Il faut que nous demandions des données brutes maintenant.**
 
-Tim Berners-Lee demande alors au public de la conférence TED de crier « *Raw data now!* » ("Des données brutes maintenant !") à l’attention des administrations.
-```{r echo=FALSE, fig.path='raw',out.width='70%', fig.align = 'center', fig.cap='Tim Berners-Lee, lors de sa conférence TED de 2009, Tim Berners-Lee appelle le public à crier « *raw data now* »'}
-knitr::include_graphics(rep('./img/raw.png'))
+Tim Berners-Lee demande alors au public de la conférence TED de crier « *Raw data now!* » ("Des données brutes maintenant !") à l’attention des administrations (figure \@ref(fig:raw)).
+```{r raw, echo=FALSE, out.width='70%', fig.align = 'center', fig.cap='Tim Berners-Lee, lors de sa conférence TED de 2009, Tim Berners-Lee appelle le public à crier « *raw data now* »'}
+knitr::include_graphics('./img/raw.png')
 ```
 
 Ce discours de Tim Berners-Lee a imposé la demande de données brutes comme un aspect essentiel de l’*open data* avec un slogan  facilement mémorable : ouvrez les données brutes maintenant ! Cette demande de données brutes s'explique par deux choses. D'une part, en ouvrant les données telles qu'elles sont produites, les administrations n'auraient pas à les retravailler ce qui a été pensé comme un levier pour faciliter l'ouverture. D'autre part, l'obtention des données brutes est pensé comme un moyen de réduire les asymétries d'information entre l'administration et la société civile puisque les données brutes seraient le matériau de l'information publique avec son traitement par l'administration.
