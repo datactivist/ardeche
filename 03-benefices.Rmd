@@ -1,0 +1,13 @@
+# Les bénéfices attendus d’une politique d’open data pour une collectivité
+
+## Organisationnels
+gain de temps dans les procédures de demandes de données, valorisation du travail des agents, dialogue avec les citoyens, nouvelles possibilités de croisement et d’exploitation des données en interne, possibilité de mutualisation des outils…
+
+## Système d’information
+amélioration de la qualité des données, cartographie du SI, soutien à l’open source et la souveraineté du SI, possibilité de partage interne pour les données non ouvrables, avancement de projets de dématérialisation…
+
+## Communication
+transparence renforcée, visualisation de données pour la communication, suivi des engagements, implication des citoyens…
+
+##Economie
+soutien aux startups, rationalisation de la politique d’achat par l’accès à de nouveaux services réutilisant les données, développement ouvert de services au public par des hackathons et des appels à projets…

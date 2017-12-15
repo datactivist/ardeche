@@ -9,7 +9,7 @@ Avant de revenir sur ces différents épisodes, il faut rappeler que le terme d'
 
 ### 2005 : Open Definition, la définition juridique des droits de l’usager du savoir ouvert
 
-En août 2005,le chercheur en économie Rufus Pollock, fondateur de l’Open Knowledge Foundation (OKFN), une organisation à but non lucratif qui vise à " promouvoir l’ouverture de toutes les formes de savoir", invitait les premiers membres de l’OKFN et son réseau de partenaires à adopter collectivement une définition du savoir ouvert. Dans son [appel à commentaire](https://lists.okfn.org/pipermail/okfn-discuss/2005-August/005233.html) (*Request for Comments*), Pollock souhaitait décliner une série de conditions essentiellement juridiques permettant d’établir qu’un savoir est ouvert. La définition devait aussi servir à énumérer les licences ouvertes spécifiques au savoir et à fédérer des disciplines éparses. 
+En août 2005,le chercheur en économie Rufus Pollock, fondateur de l’Open Knowledge Foundation (OKFN), une organisation à but non lucratif qui vise à "promouvoir l’ouverture de toutes les formes de savoir", invitait les premiers membres de l’OKFN et son réseau de partenaires à adopter collectivement une définition du savoir ouvert. Dans son [appel à commentaire](https://lists.okfn.org/pipermail/okfn-discuss/2005-August/005233.html) (*Request for Comments*), Pollock souhaitait décliner une série de conditions essentiellement juridiques permettant d’établir qu’un savoir est ouvert. La définition devait aussi servir à énumérer les licences ouvertes spécifiques au savoir et à fédérer des disciplines éparses. 
 
 Cette définition se fonde directement de l’expérience  du mouvement de l’*open source*, l'ouverture du code informatique, une généalogie clairement affirmée dans le texte de l'Open Definition qui crédite l’*Open Source Definition* comme la ressource essentielle qui a servi à la rédaction de la définition mais aussi à forger l’idée même d’ouverture. Cet effort de définition s’inscrit aussi dans le prolongement du travail de Creative Commons qui a défini une série de licences assorties à des droits et devoirs des usagers d’un savoir ouvert. 
 
@@ -17,7 +17,7 @@ Pour la résumer en quelques mots, l'[Open Definition](opendefinition.org) quelq
 
 En posant la base d’un élargissement de l’*open source* au savoir, l’Open Definition a constitué une ressource précieuse pour l’ouverture des données publiques. Elle a établi des critères essentiellement juridiques qui caractérisent l’ouverture en termes de droits des usagers sans préjuger du type de savoir concerné. Cet effort de définition s’est inscrit aussi dans le prolongement du travail de Creative Commons qui a défini une série de licences assorties à des droits et devoirs des usagers d’un savoir ouvert.
 
-**Aller plus loin** : lire l['Open Definition](http://opendefinition.org/od/1.1/fr/). 
+> **Aller plus loin** : lire l['Open Definition](http://opendefinition.org/od/1.1/fr/). 
 
 ### 2007 : la rencontre dite de Sebastopol, la définition des grands principes de l’open data 
 Après avoir découvert les fondements juridiques de l'ouverture des données avec l'Open Definition, nous partons maintenant aux Etats Unis à la rencontre de ceux qui ont défini les principes encore aujourd'hui en vigueur de l'open data.
@@ -46,7 +46,7 @@ Au termes des deux jours de la rencontre de Sebastopol, les participants ont dé
 
 Ces principes sont aujourd'hui encore le fondement de l'open data. Les participants de la rencontre de Sebastopol ont rempli leur objectif, à savoir l’adoption de ces principes par le futur président des États-Unis puisque le 21 janvier 2009, jour de son investiture à la Maison-Blanche, Barack Obama a signé deux mémorandums sur l’*Open Government*. Le premier exigeait une plus grande coopération des agences gouvernementales aux procédures du *Freedom of Information Act* (FOIA). Le second réclamait que les agences gouvernementales mettent en œuvre des politiques en faveur de la transparence, la collaboration avec la société civile et la participation des citoyens qui a abouti au lancement en 2009 de [data.gov](data.gov), le premier portail open data national.
 
-**Aller plus loin** : le site [OpenGovData.org](https://opengovdata.org/) propose une version annotée des principes de Sebastopol (en anglais).
+> **Aller plus loin** : le site [OpenGovData.org](https://opengovdata.org/) propose une version annotée des principes de Sebastopol (en anglais).
 
 ### 2008 : “Raw Data Now”, l’appel du fondateur du web à l’ouverture des données brutes
 Tim Berners-Lee, l'inventeur du web, a formulé son appel à l’ouverture des données brutes le 4 février 2009 à Long Beach en Californie lors d’une conférence TED. TED est un réseau de conférences retransmises gratuitement sur le web qui vise à présenter simplement des idées  et à convaincre l’audience de s’impliquer. 
@@ -69,7 +69,7 @@ knitr::include_graphics('./img/raw.png')
 
 Ce discours de Tim Berners-Lee a imposé la demande de données brutes comme un aspect essentiel de l’*open data* avec un slogan  facilement mémorable : ouvrez les données brutes maintenant ! Cette demande de données brutes s'explique par deux choses. D'une part, en ouvrant les données telles qu'elles sont produites, les administrations n'auraient pas à les retravailler ce qui a été pensé comme un levier pour faciliter l'ouverture. D'autre part, l'obtention des données brutes est pensé comme un moyen de réduire les asymétries d'information entre l'administration et la société civile puisque les données brutes seraient le matériau de l'information publique avec son traitement par l'administration.
 
-**Aller plus loin** : la [vidéo de la conférence de Tim Berners-Lee](https://www.ted.com/talks/tim_berners_lee_on_the_next_web?language=fr) est traduite en français sur le site de TED. 
+> **Aller plus loin** : la [vidéo de la conférence de Tim Berners-Lee](https://www.ted.com/talks/tim_berners_lee_on_the_next_web?language=fr) est traduite en français sur le site de TED. 
 
 ###2010 : le modèle en 5 étoiles, une échelle de l’ouverture des données
 Après avoir exigé l’ouverture des données brutes, Tim Berners-Lee a appelé à l’utilisation de formats ouverts de données. En 2010, il propose un modèle en cinq étapes, une hiérarchie de la première à la cinquième étoile qui, à la manière de la classification des hôtels, permet aux réutilisateurs de distinguer la qualité des données. Ce modèle s’adressait particulièrement aux gouvernements pour les encourager à adopter le Linked Data pour ouvrir leurs données. 
@@ -80,17 +80,21 @@ knitr::include_graphics(rep('./img/mug.png'))
 ```
 
 Dans la hiérarchie de Tim Berners-Lee, les données sont ouvertes dès la validation du premier critère. Il considére que, plus une donnée obtient d’étoiles, plus elle sera simple à utiliser :
-- ⭐la première étoile demande la publication sur le web des données, quel que soit leur format avec une licence ouverte. 
+- ⭐la première étoile demande la publication sur le web des données, quel que soit leur format avec une licence ouverte.
+
 - ⭐⭐la deuxième étoile exigeant que les données publiées sur le web sous une licence ouverte soient lisibles par les machines et structurées.
+
 - ⭐⭐⭐la troisième étoile réclame la publication des données dans un format non propriétaire. 
+
 - ⭐⭐⭐⭐pour obtenir la quatrième étoile, les données doivent être publiées dans les standards ouverts du W3C (RDF et SPARQL) qui imposent que les objets contenus dans les données soient décrits. 
-⭐⭐⭐⭐⭐la cinquième étoile demande qu’elles soient liées à d’autres données publiées sur le web. 
+
+- ⭐⭐⭐⭐⭐la cinquième étoile demande qu’elles soient liées à d’autres données publiées sur le web. 
 
 Dans les projets d'open data, le modèle de Tim Berners-Lee a été employé essentiellement pour inciter les agents à ouvrir les données dans des formats ouverts comme le CSV plutôt que d’utiliser le format Excel. L’utilisation de formats sémantiques, les deux derniers niveaux du modèle, réclame un travail trop important de transformation des données au regard des moyens généralement alloués aux projets d’*open data*.
 
 Retenons donc du classement en cinq étoiles qu’il suggère aux administrations d’ouvrir les données de manière progressive. En quelque sorte, il leur propose une marche à suivre : d’abord publier les données sur le web avec une licence ouverte, ensuite avec des formats lisibles par les machines puis dans des formats ouverts et enfin éventuellement selon les standards du Linked Data. 
 
-**Aller plus loin** : le site [5stardata.info](http://5stardata.info/fr/) présente en détail le modèle cinq étoiles de Tim Berners-Lee. 
+> **Aller plus loin** : le site [5stardata.info](http://5stardata.info/fr/) présente en détail le modèle cinq étoiles de Tim Berners-Lee. 
 
 
 ### 2013 : la charte internationale de l’open data, vers l’ouverture par défaut	
@@ -120,10 +124,10 @@ La [charte internationale de l'open data](https://opendatacharter.net/principles
 
 À travers ce résumé, on voit donc que la charte internationale de l'open data s'inscrit dans la continuité des définitions de l’open data évoquées précédemment. Elle fixe des grands objectifs politiques qui dépassent les textes évoqués précédemment. De ce fait, elle constitue une ressource moins opérationelle pour définir si une donnée est ouverte ou non. 
 
-**Aller plus loin** : lire la charte internationale de l'open data en français sur le site  [OpenDataCharter](https://opendatacharter.net/principles-fr/)
+> **Aller plus loin** : lire la charte internationale de l'open data en français sur le site  [OpenDataCharter](https://opendatacharter.net/principles-fr/)
 
 ## Revue des grands principes de l’ouverture des données 
-Dans la section précédente, nous avons vu les grands moments lors desquels l'open data a été défini. Nous allons maintenant résumer les principes de l'open data en reprenant les [dix points définis par la Sunlight Foundation](https://sunlightfoundation.com/policy/documents/ten-open-data-principles/). 
+Dans la section précédente, nous avons vu les grands moments lors desquels l'open data a été défini. Nous allons maintenant résumer les principes de l'open data en reprenant les [dix points définis par la Sunlight Foundation](https://sunlightfoundation.com/policy/documents/ten-open-data-principles/). Il n'y a pas de différence majeure avec les définitions de l'open data évoqué précédemment mais la Sunlight Foundation a réussi à synthétiser l'essentiel dans ce document.
 
 Les données doivent être : 
 
@@ -133,7 +137,7 @@ Les données doivent être :
 
 3. **fraîches** : les données doivent être publiées dès que possible pour garder leur valeur ; 
 
-4. **accessibles** : les données doivent être directement téléchargeables sans enregistrement préalable ; 
+4. **accessibles** : les données doivent être directement téléchargeables sans enregistrement préalable ;
 
 5. **lisibles par les machines** : les données doivent être exploitables automatiquement ;
 
@@ -145,30 +149,6 @@ Les données doivent être :
 
 9. **accessibles de façon pérenne en ligne** : les données doivent être archivées et les versions précédentes conservées  ;
 
-10. **sans coût d’utilisation** : l'accès et la réutilisation des données doivent être gratuits .
+10. **sans coût d’utilisation** : l'accès et la réutilisation des données doivent être gratuits.
 
-## Le contexte juridique en France
-
-## Les bénéfices attendus d’une politique d’open data pour une collectivité
-
-### Organisationnels
-gain de temps dans les procédures de demandes de données, valorisation du travail des agents, dialogue avec les citoyens, nouvelles possibilités de croisement et d’exploitation des données en interne, possibilité de mutualisation des outils…
-
-### Système d’information
-amélioration de la qualité des données, cartographie du SI, soutien à l’open source et la souveraineté du SI, possibilité de partage interne pour les données non ouvrables, avancement de projets de dématérialisation…
-
-### Communication
-transparence renforcée, visualisation de données pour la communication, suivi des engagements, implication des citoyens…
-
-### Economie
-soutien aux startups, rationalisation de la politique d’achat par l’accès à de nouveaux services réutilisant les données, développement ouvert de services au public par des hackathons et des appels à projets…
-
-## Les grands acteurs d’un projet d’open data
-
-## En résumé, qu'est-ce qu'une donnée publique ouverte ?
-
-une donnée
-un document administratif
-librement réutilisable
-ouverte techniquement
-brute
+> **Aller plus loin ** : lire les [dix principes définis par la Sunlight Foundation](https://sunlightfoundation.com/policy/documents/ten-open-data-principles/).
