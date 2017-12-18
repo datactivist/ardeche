@@ -42,7 +42,7 @@ Le **droit de réutilisation des informations publiques** a été fortement sout
 
 Enfin, dernier élément du contexte juridique, la **directive européenne Inspire du 14 mars 2007** vise à l'harmonisation et à l'ouverture des données géographiques au niveau européen.Transposée en droit français par l'ordonnance du 21 octobre 2010, elle impose aux autorités publiques de recenser les données qui rentrent dans le périmètre concerné par la directive, de créer et de maintenir les métadonnées selon les normes établies par la commission européenne, de mettre les métadonnées et les données en suivant les standards européens. Pour certaines données qui ne pourraient être ouvertes au public, la directive impose le partage entre autorités publiques. 
 
-> **Aller plus loin : ** lire le document "[La directive Inspire pour les néophytes](http://formations-geomatiques.developpement-durable.gouv.fr/MIG/directive_inspire_neophytes/res/Directive_inspire_neophytes_papier.pdf)" établi par le la Mission de l’information géographique (MIG) du ministère du développement durable en 2016
+> **Aller plus loin : ** lire le document "[La directive Inspire pour les néophytes](http://formations-geomatiques.developpement-durable.gouv.fr/MIG/directive_inspire_neophytes/res/Directive_inspire_neophytes_papier.pdf)" établi par la Mission de l’information géographique (MIG) du ministère du développement durable en 2016
 
 ## Loi pour une République Numérique : l'ouverture des données par défaut
 
