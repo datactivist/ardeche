@@ -235,31 +235,14 @@ Enfin, la loi **limite par décret les licences** qui peuvent être utilisées p
 
 > **Aller plus loin** : lire l'article "[On vous explique le volet « Open Data » de la loi Lemaire](https://www.nextinpact.com/news/101397-on-vous-explique-volet-open-data-loi-lemaire.htm)" publié par le site NextInpact
 
-## Quelle licence choisir ?
+Ces deux licences offrent un choix aux administrations, la licence ouverte étant plus permissive que la licence ODBL qui a été conçue dans une logique de "pot commun" permettant de garantir que les données resteront ouvertes après leur réutilisation.
 
-La licence ouverte
-L’utilisateur est libre de :
-- Partager (copier, distribuer et utiliser) la base de données
-- Produire des créations à partir de la base de données
-- Adapter (modifier, transformer, construire) la base de données
-- Faire un usage commercial
+```{r echo=FALSE, fig.path='licence',out.width='60%', fig.align = 'center', fig.cap='Panorama des licences de données ouvertes (source : Open Data Lab'}
+knitr::include_graphics(rep('./img/licences.png'))
+```
 
-Tant qu’il :
-Mentionne la paternité et la date de dernière mise à jour
-
-La licence ODBL
-L’utilisateur est libre de :
-Partager (copier, distribuer et utiliser) la base de données
-Produire des créations à partir de la base de données
-Adapter (modifier, transformer, construire) la base de données
-Faire un usage commercial
-
-Tant qu’il :
-Mentionne la paternité
-Partage aux conditions identiques
-Garde ouverte la base de données
-
-> **Aller plus loin :** le guide de l'INRA dans sa fiche numéro 6
+> **Aller plus loin :** le guide ["Ouverture des données de la recherche. Guide d'analyse du cadre juridique en France](https://www6.inra.fr/datapartage/Zoom-sur/Guide-d-analyse-du-cadre-juridique-en-France)
+" de l'INRA présente dans sa fiche numéro 6 une comparaison complète de la licence ouverte et de la licence ODBL
 
 <!--chapter:end:02-contexte_juridique_france.Rmd-->
 
