@@ -1,13 +1,26 @@
 # Les bénéfices attendus d’une politique d’open data pour une collectivité
+Les bénéfices de l'open data sont souvent résumés à trois dimensions : transparence, innovation et modernisation. Ces trois dimensions sont juste et utiles pour repérer les bénéfices qu'on peut attendre d'une politique open data ambitieuse. Mais ces objectifs génériques peinent à rendre compte de l'utilité immédiate que l'ouverture des données peut procurer aux institutions qui s'engagent dans une démarche d'open data. 
 
-## Organisationnels
-gain de temps dans les procédures de demandes de données, valorisation du travail des agents, dialogue avec les citoyens, nouvelles possibilités de croisement et d’exploitation des données en interne, possibilité de mutualisation des outils…
+## Du point de vue de l'organisation, l'ouverture des données comme un levier d'innovation ouverte
+Au niveau organisationnel, l'ouverture des données peut être vue comme une manière de **valoriser le travail de l'administration**. En effet, l'ouverture des données permet de montrer au public la qualité du travail réalisé par les agents et rend visible l'effort d'objectivation des politiques publiques par la donnée. 'ouverture des données peut aussi être un moyen de présenter au public les compétences et les expertises du département. Par exemple, le [département de Haute-Garonne](https://data.haute-garonne.fr/pages/accueil/) présente les jeux de données en cinq catégories à la une du portail qui résume les compétences départementales :  solidarités, déplacements, territoire, culture, jeunesse et famille. 
 
-## Système d’information
+L'open data est aussi un moyen de motiver les agents, l'ouverture des données permet de **servir l'intérêt général dans une logique de service public**. Un des arguments les plus fréquents en faveur de l'ouverture des données consiste à dire que l'ouverture des données permet de rendre au public les données qui ont été payé par l'impôt, c'est sous cet angle qu'au Royaume-Uni le *Guardian* a justifié son appel à l'ouverture des données avec sa campagne en 2006 "[rendez nous les joyaux de la couronne !](https://www.theguardian.com/technology/2006/mar/09/education.epublic)" En France, on peut relier les principes de l'open data aux [trois grands principes du service public](http://www.vie-publique.fr/decouverte-institutions/institutions/approfondissements/notion-service-public.html) : 
+- la **continuité** du service public : dès lors que les données sont ouvertes, elles peuvent continuer à être utiles pour le public même si les services qui s'appuient dessus ont été cloturés comme c'est souvent le cas avec les applications mobiles produites par les acteurs publics
+- **l’égalité** devant le service public : lorsque les données sont ouvertes, toute personne a un droit égal d'accès et de réutilisation en vertu du principe de non-discrimnination des usagers au coeur de l'open data
+- **l’adaptabilité** : dès lors que les données sont ouvertes, les citoyens sont en capacité de faire évoluer les services en fonction des besoins des usagers et des évolutions techniques. 
+
+Par ailleurs, l'open data peut aussi être vu comme un **gain de temps** lorsque les agents reçoivent de nombreuses demandes de la part d'entreprises et d'acteurs associatifs pour obtenir des données. Leur ouverture permet d'avoir un point centralisé où trouver les données et éviter de renvoyer à de multiples reprises les mêmes données. Aussi, ouvrir les données brutes évite de mettre en forme les données comme c'était souvent le cas avec les fichiers PDF. Par exemple, un agent de la ville de Paris publiait régulièrement des fichiers PDF pour rendre compte du parc de logements sociaux ce qui demandait de découper les données par arrondissement et de mettre en ligne un fichier par arrondissement. Maintenant que les données sont ouvertes, cet agent a juste à publier sa feuille de calcul, son document de travail, sur laquelle les usagers n'ont qu'à utiliser les filtres pour obtenir les données par arrondissement. 
+
+Toujours d'un point de vue organisationnel, l'open data peut permettre d'**ouvrir de nouvelles possibilités de croisement et d’exploitation des données** en interne. Une étude interne de la ville de Paris en 2013 a montré que 80% des téléchargements sur le portail open data provenaient des services de la ville. Ouvrir ses données permet de désiloter les services et de faire découvrir déjà aux agents des données dont ils n'avaient pas connaissance.
+
+
+## Du point de vue du système d’information, l'open data comme levier de qualité des données 
 amélioration de la qualité des données, cartographie du SI, soutien à l’open source et la souveraineté du SI, possibilité de partage interne pour les données non ouvrables, avancement de projets de dématérialisation…
 
-## Communication
-transparence renforcée, visualisation de données pour la communication, suivi des engagements, implication des citoyens…
+## Du point de vue du citoyen, l'ouverture des données comme pierre angulaire de l'ouverture des gouvernements
+transparence renforcée, visualisation de données pour la communication, suivi des engagements (Los Angeles, Issy), implication des citoyens… ouverture des gouvernements
 
-##Economie
+## Du point économique, rationnalisation des achats et soutien à la création de services innovants 
 soutien aux startups, rationalisation de la politique d’achat par l’accès à de nouveaux services réutilisant les données, développement ouvert de services au public par des hackathons et des appels à projets…
+
+C’est essentiellement par l’Union européenne que le droit à la réutilisation s’est imposé en France. Dans les années 2000, la Commission européenne s’est inspirée du cadre réglementaire états-unien et a multiplié les études sur le potentiel économique de la réutilisation de l’information publique, évaluant jusqu’à 200 milliards d’euros par an la valeur de leur circulation optimale dans les pays de l’Union {Vickery 2011}.
