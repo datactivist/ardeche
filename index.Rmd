@@ -14,4 +14,14 @@ description: "à définir"
 
 # Introduction {-}
 
-A venir
+Ce rapport vise à expliquer les essentiels d'une démarche d'ouverture des données et à décrire les facteurs de succès d'un projet d'open data. C'est un document à visée pédagogique qui, sans entrer dans les détails du contexte institutionnel et des spécificités de chaque jeu de données, permet d'établir un niveau commun de compréhension pour les acteurs de l'ouverture des données en Ardèche. Il repose sur des sources publiques qui sont référencées dans le document, elles sont autant de prolongements pour cette introduction à l'ouverture des données. 
+
+Dans la première partie, le rapport présente les grands principes internationaux de l'ouverture des données et retrace quelques uns des jalons de l'émergence de l'open data. On y découvre quelques uns des acteurs à l'origine de l'ouverture des données et les principes qui y ont été formulés. 
+
+La deuxième partie aborde le contexte juridique de l'ouverture des données en France. Elle remonte aux origines de l'open data dans le droit d'accès et de réutilisation des informations publiques pour montrer la continuité avec le principe d'ouverture des données par défaut prévu par la loi pour une république numérique. 
+
+La troisième partie s'intéresse aux bénéfices organisationnels, informationnels, politiques et économiques de l'ouverture des données. Elle insiste sur les bénéfices immédiats d'une démarche d'open data sans se concentrer uniquement sur le volet économique comme on peut le lire souvent dans la littérature. 
+
+Enfin, la quatrième partie présente quelques uns des facteurs de succès d'une politique d'open data : obtenir un soutien au plus haut niveau, configurer l’organisation pour l’ouverture, faciliter la découverte et l’utilisation des données, rester à l'écoute et interagir avec les usagers. 
+
+Ce rapport est une première version, n'hésitez à nous faire parvenir vos retours à l'adresse suivante : samuel@datactivi.st. 

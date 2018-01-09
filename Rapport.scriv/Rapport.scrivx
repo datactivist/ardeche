@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrivenerProject Version="1.5" Creator="SCRMAC-2.8.1.2-26324" Device="appeulmaquebouc-2" Modified="2018-01-09 16:33:00 +0100" ModID="35B26C0B-9AD6-46D3-B1BC-BA55F9B75084">
+    <Binder>
+        <BinderItem ID="0" UUID="6A50134C-DCCD-46A8-83C8-F7D9122C2D5E" Type="DraftFolder" Created="2018-01-08 15:22:25 +0100" Modified="2018-01-08 15:22:25 +0100">
+            <Title>Ébauche</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+            <Children>
+                <BinderItem ID="29" UUID="0D7C36D8-2590-42DC-836A-2A27E8D41AD4" Type="Folder" Created="2018-01-08 15:30:59 +0100" Modified="2018-01-08 15:30:59 +0100">
+                    <Title>index</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <NotesTextSelection>0,0</NotesTextSelection>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem ID="30" UUID="40CF4855-263D-46DE-826A-35340B1E3748" Type="Text" Created="2018-01-08 15:30:59 +0100" Modified="2018-01-08 15:30:59 +0100">
+                            <Title>Métadonnées</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="31" UUID="44C87220-2001-4040-95D6-263A3A0B4BD5" Type="Text" Created="2018-01-08 15:30:59 +0100" Modified="2018-01-08 15:30:59 +0100">
+                            <Title>Introduction {-}</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+                <BinderItem ID="20" UUID="850F757C-50C6-40E3-BF4A-D5EB108CF4FE" Type="Folder" Created="2018-01-08 15:25:56 +0100" Modified="2018-01-08 15:25:56 +0100">
+                    <Title>01-principes</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <NotesTextSelection>0,0</NotesTextSelection>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem ID="21" UUID="CDE475FF-DD4E-484A-BF97-37C1EEA2BF0E" Type="Text" Created="2018-01-08 15:25:56 +0100" Modified="2018-01-08 15:25:56 +0100">
+                            <Title>Les grands principes d’une démarche d’open data</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                            <Children>
+                                <BinderItem ID="22" UUID="BBCB7995-240B-4046-AA12-560177843CC7" Type="Text" Created="2018-01-08 15:25:56 +0100" Modified="2018-01-08 15:25:56 +0100">
+                                    <Title>Aux origines de l’ouverture des données : retours sur quelques grandes dates fondatrices</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <NotesTextSelection>0,0</NotesTextSelection>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>0,0</TextSelection>
+                                    </TextSettings>
+                                    <Children>
+                                        <BinderItem ID="23" UUID="CCFC5791-43C2-4881-9021-1D254307F266" Type="Text" Created="2018-01-08 15:25:56 +0100" Modified="2018-01-08 15:25:56 +0100">
+                                            <Title>2005 : Open Definition, la définition juridique des droits de l’usager du savoir ouvert</Title>
+                                            <MetaData>
+                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                <NotesTextSelection>0,0</NotesTextSelection>
+                                            </MetaData>
+                                            <TextSettings>
+                                                <TextSelection>0,0</TextSelection>
+                                            </TextSettings>
+                                        </BinderItem>
+                                        <BinderItem ID="24" UUID="683040D8-1F44-4749-96F4-29493895C065" Type="Text" Created="2018-01-08 15:25:56 +0100" Modified="2018-01-08 15:25:56 +0100">
+                                            <Title>2007 : la rencontre dite de Sebastopol, la définition des grands principes de l’open data</Title>
+                                            <MetaData>
+                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                <NotesTextSelection>0,0</NotesTextSelection>
+                                            </MetaData>
+                                            <TextSettings>
+                                                <TextSelection>0,0</TextSelection>
+                                            </TextSettings>
+                                        </BinderItem>
+                                        <BinderItem ID="25" UUID="0C473C6F-21D0-4FF4-8303-B9D1E8E3E0FD" Type="Text" Created="2018-01-08 15:25:56 +0100" Modified="2018-01-08 15:25:56 +0100">
+                                            <Title>2008 : “Raw Data Now”, l’appel du fondateur du web à l’ouverture des données brutes</Title>
+                                            <MetaData>
+                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                <NotesTextSelection>0,0</NotesTextSelection>
+                                            </MetaData>
+                                            <TextSettings>
+                                                <TextSelection>0,0</TextSelection>
+                                            </TextSettings>
+                                        </BinderItem>
+                                        <BinderItem ID="26" UUID="8FFEE716-5F44-4636-9232-8827EC9BF780" Type="Text" Created="2018-01-08 15:25:56 +0100" Modified="2018-01-08 15:25:56 +0100">
+                                            <Title>2010 : le modèle en 5 étoiles, une échelle de l’ouverture des données</Title>
+                                            <MetaData>
+                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                <NotesTextSelection>0,0</NotesTextSelection>
+                                            </MetaData>
+                                            <TextSettings>
+                                                <TextSelection>0,0</TextSelection>
+                                            </TextSettings>
+                                        </BinderItem>
+                                        <BinderItem ID="27" UUID="954F9F6D-3B5E-4CF5-848D-57557B49BEEC" Type="Text" Created="2018-01-08 15:25:56 +0100" Modified="2018-01-08 15:25:56 +0100">
+                                            <Title>2013 : la charte internationale de l’open data, vers l’ouverture par défaut</Title>
+                                            <MetaData>
+                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                <NotesTextSelection>0,0</NotesTextSelection>
+                                            </MetaData>
+                                            <TextSettings>
+                                                <TextSelection>0,0</TextSelection>
+                                            </TextSettings>
+                                        </BinderItem>
+                                    </Children>
+                                </BinderItem>
+                                <BinderItem ID="28" UUID="0E08A623-343D-43A6-8FBA-8759317CF3DD" Type="Text" Created="2018-01-08 15:25:56 +0100" Modified="2018-01-08 15:25:56 +0100">
+                                    <Title>Revue des grands principes de l’ouverture des données</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <NotesTextSelection>0,0</NotesTextSelection>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>0,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                            </Children>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+                <BinderItem ID="15" UUID="4258A791-F9BD-49B6-AC8F-FEE55DF16649" Type="Folder" Created="2018-01-08 15:23:32 +0100" Modified="2018-01-08 15:23:32 +0100">
+                    <Title>02-contexte_juridique_france</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <NotesTextSelection>0,0</NotesTextSelection>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem ID="16" UUID="0F9E7B95-FF82-4AEA-AC4A-5F9C4F5C6198" Type="Text" Created="2018-01-08 15:23:32 +0100" Modified="2018-01-08 15:23:32 +0100">
+                            <Title>Le cadre juridique de l'open data en France</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                            <Children>
+                                <BinderItem ID="17" UUID="D3BEA7B3-9AE7-4A48-960B-D0313ADA5E24" Type="Text" Created="2018-01-08 15:23:32 +0100" Modified="2018-01-08 15:23:32 +0100">
+                                    <Title>La loi CADA : accorder aux citoyens un "droit de savoir"</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <NotesTextSelection>0,0</NotesTextSelection>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>0,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem ID="18" UUID="7E868ACA-0F20-4A30-829B-337C541D64DC" Type="Text" Created="2018-01-08 15:23:32 +0100" Modified="2018-01-08 15:23:32 +0100">
+                                    <Title>Du droit d'accès au droit de réutilisation</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <NotesTextSelection>0,0</NotesTextSelection>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>0,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem ID="19" UUID="6AC4BA60-884B-4151-AC55-426B0FDE3807" Type="Text" Created="2018-01-08 15:23:32 +0100" Modified="2018-01-08 15:23:32 +0100">
+                                    <Title>Loi pour une République Numérique : l'ouverture des données par défaut</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <NotesTextSelection>0,0</NotesTextSelection>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>0,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                            </Children>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+                <BinderItem ID="9" UUID="D3EC8DD4-F106-4132-A1F0-B21F5401215A" Type="Folder" Created="2018-01-08 15:23:08 +0100" Modified="2018-01-08 15:23:08 +0100">
+                    <Title>03-benefices</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <NotesTextSelection>0,0</NotesTextSelection>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem ID="10" UUID="C4A69769-8440-4394-BF26-4A8A34DECD3D" Type="Text" Created="2018-01-08 15:23:08 +0100" Modified="2018-01-08 15:23:08 +0100">
+                            <Title>Les bénéfices attendus d’une politique d’open data pour une collectivité</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                            <Children>
+                                <BinderItem ID="11" UUID="3299FFCF-B6A8-4B15-97BE-2DA29C8F7B89" Type="Text" Created="2018-01-08 15:23:08 +0100" Modified="2018-01-08 15:23:08 +0100">
+                                    <Title>Du point de vue de l'organisation, l'ouverture des données comme un levier d'innovation ouverte</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <NotesTextSelection>0,0</NotesTextSelection>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>0,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem ID="12" UUID="2188F17B-B0D7-46B6-8498-5BD88CDC1269" Type="Text" Created="2018-01-08 15:23:08 +0100" Modified="2018-01-08 15:23:08 +0100">
+                                    <Title>Du point de vue du système d’information, l'open data comme levier de qualité des données</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <NotesTextSelection>0,0</NotesTextSelection>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>0,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem ID="13" UUID="7D7B65F6-3D84-4427-B8E3-DB5378BFA1EF" Type="Text" Created="2018-01-08 15:23:08 +0100" Modified="2018-01-08 15:23:08 +0100">
+                                    <Title>Du point de vue du citoyen, l'ouverture des données comme pierre angulaire de l'ouverture des gouvernements</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <NotesTextSelection>0,0</NotesTextSelection>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>0,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem ID="14" UUID="6D22D074-7264-4A88-B3DC-AD96C261EB09" Type="Text" Created="2018-01-08 15:23:08 +0100" Modified="2018-01-08 15:23:08 +0100">
+                                    <Title>Du point économique, soutien à la création de services innovants</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <NotesTextSelection>0,0</NotesTextSelection>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>0,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                            </Children>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+                <BinderItem ID="4" UUID="0BE90C74-C32E-409F-8BF6-5D1C10F46A67" Type="Folder" Created="2018-01-08 15:22:48 +0100" Modified="2018-01-08 15:22:48 +0100">
+                    <Title>04-facteurs</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <NotesTextSelection>0,0</NotesTextSelection>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem ID="5" UUID="A5D58B8A-6293-400E-8916-F7C269AE185F" Type="Text" Created="2018-01-08 15:22:48 +0100" Modified="2018-01-08 15:41:55 +0100">
+                            <Title>Les facteurs clés de succès d'une politique d'open data</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                            <Children>
+                                <BinderItem ID="32" UUID="4FA5A092-C86E-4873-80B9-80DB39C760B3" Type="Text" Created="2018-01-08 15:33:37 +0100" Modified="2018-01-08 18:10:21 +0100">
+                                    <Title></Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <NotesTextSelection>0,0</NotesTextSelection>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>2260,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem ID="33" UUID="5F6ED153-D4BA-42AA-AC5A-859A64A558C6" Type="Text" Created="2018-01-08 15:41:34 +0100" Modified="2018-01-09 10:58:08 +0100">
+                                    <Title>Obtenir un soutien au plus haut niveau</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <NotesTextSelection>0,0</NotesTextSelection>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>0,2960</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem ID="6" UUID="1D326231-AA02-4B91-AD60-8510B584D5E5" Type="Text" Created="2018-01-08 15:22:48 +0100" Modified="2018-01-09 11:24:27 +0100">
+                                    <Title>Configurer l'organisation pour l'ouverture des données</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <NotesTextSelection>0,0</NotesTextSelection>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>0,2992</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem ID="7" UUID="70677076-A2A0-428D-AE95-EA4C4A496575" Type="Text" Created="2018-01-08 15:22:48 +0100" Modified="2018-01-09 16:02:23 +0100">
+                                    <Title>Faciliter la découverte et l'utilisation des données</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <NotesTextSelection>0,0</NotesTextSelection>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>0,6021</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem ID="8" UUID="6F81054B-4C37-433C-A70A-F6185CC56F9E" Type="Text" Created="2018-01-08 15:22:48 +0100" Modified="2018-01-09 16:31:36 +0100">
+                                    <Title>Rester à l'écoute des usagers, être capable de réagir</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <NotesTextSelection>0,0</NotesTextSelection>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>0,2708</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                            </Children>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+            </Children>
+        </BinderItem>
+        <BinderItem ID="1" UUID="1AA33E3A-BCD7-4C5A-8302-A2C2E8AD5608" Type="ResearchFolder" Created="2018-01-08 15:22:25 +0100" Modified="2018-01-08 15:22:25 +0100">
+            <Title>Recherche</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+        </BinderItem>
+        <BinderItem ID="2" UUID="0B9CF9CD-BAAE-4FF6-8131-858EAE1408EA" Type="TrashFolder" Created="2018-01-08 15:22:25 +0100" Modified="2018-01-08 15:22:25 +0100">
+            <Title>Corbeille</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+            <Children>
+                <BinderItem ID="3" UUID="667441F0-90AA-410C-95C5-39AA09016F11" Type="Text" Created="2018-01-08 15:22:25 +0100" Modified="2018-01-08 15:22:25 +0100">
+                    <Title>Sans titre</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <NotesTextSelection>0,0</NotesTextSelection>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+            </Children>
+        </BinderItem>
+    </Binder>
+    <Collections>
+        <Collection Type="Binder" ID="32FA2457-3EBC-43F6-9759-2A469428FAFB" Color="0.962266 0.962266 0.962266">
+            <Title>Classeur</Title>
+        </Collection>
+        <Collection Type="RecentSearch" ID="E22B9FB7-2A01-403F-A3ED-6BD582263EE5" Color="0.922 0.91 0.98">
+            <Title>Résultats de la recherche</Title>
+        </Collection>
+    </Collections>
+    <LabelSettings>
+        <Title>Étiquette</Title>
+        <DefaultLabelID>-1</DefaultLabelID>
+        <Labels>
+            <Label ID="-1">Aucune étiquette</Label>
+            <Label ID="0" Color="0.9 0.92 0.95">Concept</Label>
+            <Label ID="1" Color="0.985 0.875 0.85">Chapitre</Label>
+        </Labels>
+    </LabelSettings>
+    <StatusSettings>
+        <Title>Statut</Title>
+        <DefaultStatusID>-1</DefaultStatusID>
+        <StatusItems>
+            <Status ID="-1">Aucun statut</Status>
+            <Status ID="0">À faire</Status>
+            <Status ID="1">Première ébauche</Status>
+            <Status ID="2">Ébauche révisée</Status>
+            <Status ID="3">Ébauche finale</Status>
+            <Status ID="4">OK</Status>
+        </StatusItems>
+    </StatusSettings>
+    <ProjectTargets Notify="No">
+        <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2018-01-08 15:22:24 +0100" IgnoreDeadline="Yes">0</DraftTarget>
+        <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" ResetType="Midnight" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
+        <PreviousSession Words="1693" Characters="11090" Date="2018-01-09 10:57:35 +0100"></PreviousSession>
+    </ProjectTargets>
+    <PrintSettings PaperSize="595.0,842.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="iso-a4" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
+</ScrivenerProject>
