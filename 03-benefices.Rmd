@@ -1,4 +1,4 @@
-# Les bénéfices attendus d’une politique d’open data pour une collectivité
+# Les bénéfices attendus d’une politique d’open data pour une collectivité {#partie3}
 Les bénéfices de l'open data sont souvent résumés à trois dimensions : transparence, innovation et modernisation. Ces trois dimensions sont juste et utiles pour repérer les bénéfices qu'on peut attendre d'une politique open data ambitieuse. Mais ces objectifs génériques peinent à rendre compte de l'utilité immédiate que l'ouverture des données peut procurer aux institutions qui s'engagent dans une démarche d'open data. 
 
 ## Du point de vue de l'organisation, l'ouverture des données comme un levier d'innovation ouverte

@@ -1,4 +1,4 @@
-# Les grands principes d’une démarche d’open data
+# Les grands principes d’une démarche d’open data {#partie1}
 
 Comme nous allons le voir dans cette première partie, le cadre juridique de l'ouverture des données repose sur des racines anciennnes mais l'open data en tant que tel est apparu récemment, il y a moins de 10 ans, avec des grands principes qui se sont consolidés avec le temps. Dans cette première partie, nous allons revoir ensemble les grands principes de l'open data : leurs origines, leur adaptation en France et les bénéfices pour une collectivité à les adopter. 
 

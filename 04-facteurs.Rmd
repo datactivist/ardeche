@@ -1,4 +1,4 @@
-# Les facteurs clés de succès d'une politique d'open data
+# Les facteurs clés de succès d'une politique d'open data {#partie4}
 Dans cette section, nous allons essayer de résumer les facteurs de succès d’une politique d’open data en nous appuyant principalement sur trois sources librement réutilisables. 
 
 Tout d’abord, [l’outil d'évaluation de l'état de préparation d’une politique d’open data](http://opendatatoolkit.worldbank.org/docs/odra/odra_v1-fr.pdf) élaboré par la Banque Mondiale en amont de projets d’ouverture de données. Même s’ils sont plus adaptés pour des contextes nationaux, les critères de cet outil de positionnement ont été revu par une communauté mondiale ce qui en fait une source de référence.
