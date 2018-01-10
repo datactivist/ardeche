@@ -67,7 +67,7 @@ Tim Berners-Lee demande alors au public de la conférence TED de crier « *Raw 
 knitr::include_graphics('./img/raw.png')
 ```
 
-Ce discours de Tim Berners-Lee a imposé la demande de données brutes comme un aspect essentiel de l’*open data* avec un slogan  facilement mémorable : ouvrez les données brutes maintenant ! Cette demande de données brutes s'explique par deux choses. D'une part, en ouvrant les données telles qu'elles sont produites, les administrations n'auraient pas à les retravailler ce qui a été pensé comme un levier pour faciliter l'ouverture. D'autre part, l'obtention des données brutes est pensé comme un moyen de réduire les asymétries d'information entre l'administration et la société civile puisque les données brutes seraient le matériau de l'information publique avec son traitement par l'administration.
+Ce discours de Tim Berners-Lee a imposé la demande de données brutes comme un aspect essentiel de l’*open data* avec un slogan  facilement mémorisable : ouvrez les données brutes maintenant ! Cette demande de données brutes s'explique par deux choses. D'une part, en ouvrant les données telles qu'elles sont produites, les administrations n'auraient pas à les retravailler, ce qui a été pensé comme un levier pour faciliter l'ouverture. D'autre part, l'obtention des données brutes est pensée comme un moyen de réduire les asymétries d'information entre l'administration et la société civile puisque les données brutes seraient le matériau de l'information publique avec son traitement par l'administration.
 
 > **Aller plus loin** : la [vidéo de la conférence de Tim Berners-Lee](https://www.ted.com/talks/tim_berners_lee_on_the_next_web?language=fr) est traduite en français sur le site de TED. 
 
@@ -80,15 +80,16 @@ knitr::include_graphics(rep('./img/mug.png'))
 ```
 
 Dans la hiérarchie de Tim Berners-Lee, les données sont ouvertes dès la validation du premier critère. Il considére que, plus une donnée obtient d’étoiles, plus elle sera simple à utiliser :
-- ⭐la première étoile demande la publication sur le web des données, quel que soit leur format avec une licence ouverte.
 
-- ⭐⭐la deuxième étoile exigeant que les données publiées sur le web sous une licence ouverte soient lisibles par les machines et structurées.
+- ⭐ la première étoile demande la publication sur le web des données, quel que soit leur format avec une licence ouverte.
 
-- ⭐⭐⭐la troisième étoile réclame la publication des données dans un format non propriétaire. 
+- ⭐⭐ la deuxième étoile exigeant que les données publiées sur le web sous une licence ouverte soient lisibles par les machines et structurées.
 
-- ⭐⭐⭐⭐pour obtenir la quatrième étoile, les données doivent être publiées dans les standards ouverts du W3C (RDF et SPARQL) qui imposent que les objets contenus dans les données soient décrits. 
+- ⭐⭐⭐ la troisième étoile réclame la publication des données dans un format non propriétaire. 
 
-- ⭐⭐⭐⭐⭐la cinquième étoile demande qu’elles soient liées à d’autres données publiées sur le web. 
+- ⭐⭐⭐⭐ pour obtenir la quatrième étoile, les données doivent être publiées dans les standards ouverts du W3C (RDF et SPARQL) qui imposent que les objets contenus dans les données soient décrits. 
+
+- ⭐⭐⭐⭐⭐ la cinquième étoile demande qu’elles soient liées à d’autres données publiées sur le web. 
 
 Dans les projets d'open data, le modèle de Tim Berners-Lee a été employé essentiellement pour inciter les agents à ouvrir les données dans des formats ouverts comme le CSV plutôt que d’utiliser le format Excel. L’utilisation de formats sémantiques, les deux derniers niveaux du modèle, réclame un travail trop important de transformation des données au regard des moyens généralement alloués aux projets d’*open data*.
 
@@ -110,24 +111,25 @@ La [charte sur l’open data du G8](https://fr.scribd.com/document/148580461/Cha
 Cette charte a été par la suite reprise par un groupe qui s'est notamment réuni lors de l'Open Data Conference de 2015 à Ottowa afin de produire une charte internationale de l'open data, dépassant les seuls pays du G8, qui synthétise les grands principes de l'ouverture des données. Elle a été [officiellement publiée](https://opendatacharter.net/seventeen-governments-adopt-the-new-international-open-data-charter/) en octobre 2015 en marge de l'Assemblée Générale des Nations Unies.
 
 La [charte internationale de l'open data](https://opendatacharter.net/principles-fr/) fixe cinq grands principes pour l'ouverture des données : 
+
 - le premier principe donne pour objectif de **faire de l’open data la pratique par défaut des administrations** pour les données publiques tout en respectant les législations en vigueur sur la propriété intellectuelle et la vie privée. 
 
-- le deuxième principe demande la publication des données **en temps opportun (*timely*) et de manière exhaustive**, c'est-à dire en fournissant des données désagrégées et de qualité
+- le deuxième principe demande la publication des données **en temps opportun (*timely*) et de manière exhaustive**, c'est-à dire en fournissant des données désagrégées et de qualité.
 
-- le troisième principe réclame **des données accessibles et utilisables** fournies dans des portails centraux, sans enregistrement préalable, avec une licence ouverte
+- le troisième principe réclame **des données accessibles et utilisables** fournies dans des portails centraux, sans enregistrement préalable, avec une licence ouverte.
 
-- le quatrième principe demande des **données comparables et interopérables** fournie dans des formats structurés et normalisés favorisant l'interopérabilité et la réutilisation
+- le quatrième principe demande des **données comparables et interopérables** fournies dans des formats structurés et normalisés favorisant l'interopérabilité et la réutilisation.
 
-- le cinquième principe fixe pour objectif à l'open data d'**améliorer la gouvernance et d'encourager la participation citoyenne** dans la logique de l'ouverture des gouvernements
+- le cinquième principe fixe pour objectif à l'open data d'**améliorer la gouvernance et d'encourager la participation citoyenne** dans la logique de l'ouverture des gouvernements. 
 
-- le sixième principe vise à **favoriser le développement inclusif et l’innovation** du fait que les données ouvertes donne du pouvoir d'agir à tous. 
+- le sixième principe vise à **favoriser le développement inclusif et l’innovation** du fait que les données ouvertes donne du pouvoir d'agir à tou·te·s. 
 
 À travers ce résumé, on voit donc que la charte internationale de l'open data s'inscrit dans la continuité des définitions de l’open data évoquées précédemment. Elle fixe des grands objectifs politiques qui dépassent les textes évoqués précédemment. De ce fait, elle constitue une ressource moins opérationelle pour définir si une donnée est ouverte ou non. 
 
 > **Aller plus loin** : lire la charte internationale de l'open data en français sur le site  [OpenDataCharter](https://opendatacharter.net/principles-fr/)
 
 ## Revue des grands principes de l’ouverture des données 
-Dans la section précédente, nous avons vu les grands moments lors desquels l'open data a été défini. Nous allons maintenant résumer les principes de l'open data en reprenant les [dix points définis par la Sunlight Foundation](https://sunlightfoundation.com/policy/documents/ten-open-data-principles/). Il n'y a pas de différence majeure avec les définitions de l'open data évoqué précédemment mais la Sunlight Foundation a réussi à synthétiser l'essentiel dans ce document.
+Dans la section précédente, nous avons vu les grands moments lors desquels l'open data a été défini. Nous allons maintenant résumer les principes de l'open data en reprenant les [dix points définis par la Sunlight Foundation](https://sunlightfoundation.com/policy/documents/ten-open-data-principles/). Il n'y a pas de différence majeure avec les définitions de l'open data évoquées précédemment mais la Sunlight Foundation a réussi à synthétiser l'essentiel dans ce document.
 
 Les données doivent être : 
 
