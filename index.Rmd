@@ -30,7 +30,7 @@ Ce rapport est une première version, n'hésitez à nous faire parvenir vos reto
 
 <script type="text/javascript">
    var discourseUrl = "https://teamopendata.org/",
-      discourseEmbedUrl = '//datactivist.coop/ardeche/rapport/index.html';
+      discourseEmbedUrl = 'https://datactivist.coop/ardeche/rapport/index.html';
 
       (function() {
          var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
