@@ -1,4 +1,4 @@
-# Le cadre juridique de l'open data en France
+# Le cadre juridique de l'open data en France {#partie2}
 On pourrait croire que l'open data constitue un mouvement récent né il y a près de dix ans. En réalité, les principes internationaux que nous venons de découvrir s'inscrivent dans la continuité du droit français et européen qui garantit la transparence de l'action de l'administration. En plus de porter l'attention sur les données brutes de l'administration, les principes de l'open data ont apporté deux nouveautés : la consécration du droit de réutilisation avec l'apparition de standards internationaux et l'importance de la lisibilité des données par les machines. 
 
 ## La loi CADA : accorder aux citoyens un "droit de savoir"
