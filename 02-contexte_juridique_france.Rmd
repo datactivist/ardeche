@@ -66,3 +66,17 @@ knitr::include_graphics(rep('./img/licences.png'))
 
 > **Aller plus loin :** le guide ["Ouverture des données de la recherche. Guide d'analyse du cadre juridique en France](https://www6.inra.fr/datapartage/Zoom-sur/Guide-d-analyse-du-cadre-juridique-en-France)
 " de l'INRA présente dans sa fiche numéro 6 une comparaison complète de la licence ouverte et de la licence ODBL
+
+<div id="discourse-comments"></div>
+
+<script type="text/javascript">
+   var discourseUrl = "https://teamopendata.org/",
+      discourseEmbedUrl = 'https://datactivist.coop/ardeche/rapport/partie2.html';
+
+      (function() {
+         var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
+         d.src = discourseUrl + 'javascripts/embed.js';
+         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
+      })();
+   </script>
+</section>

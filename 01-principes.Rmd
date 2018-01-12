@@ -154,3 +154,18 @@ Les données doivent être :
 10. **sans coût d’utilisation** : l'accès et la réutilisation des données doivent être gratuits.
 
 > **Aller plus loin ** : lire les [dix principes définis par la Sunlight Foundation](https://sunlightfoundation.com/policy/documents/ten-open-data-principles/).
+
+<div id="discourse-comments"></div>
+
+<script type="text/javascript">
+   var discourseUrl = "https://teamopendata.org/",
+      discourseEmbedUrl = 'https://datactivist.coop/ardeche/rapport/partie1.html';
+
+      (function() {
+         var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
+         d.src = discourseUrl + 'javascripts/embed.js';
+         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
+      })();
+   </script>
+</section>
+
