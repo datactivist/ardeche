@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta property="og:title" content="Rapport sur l’open data" />
+<meta property="og:type" content="book" />
+
+
+<meta property="og:description" content="Ce document vise à expliquer les essentiels d’une démarche d’ouverture des données et à décrire les facteurs de succès d’un projet d’open data." />
+<meta name="github-repo" content="datactivist/ardeche" />
+
+<meta name="author" content="Samuel Goëta (Datactivist) pour le Conseil départemental de l’Ardèche" />
+
+<meta name="date" content="2018-01-12" />
+
+
+<meta name="description" content="Ce document vise à expliquer les essentiels d’une démarche d’ouverture des données et à décrire les facteurs de succès d’un projet d’open data.">
+
+<title>Rapport sur l’open data</title>
+
+<script src="libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="libs/bootstrap-3.3.5/css/united.min.css" rel="stylesheet" />
+<script src="libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="libs/navigation-1.1/tabsets.js"></script>
+<script src="libs/htmlwidgets-0.9/htmlwidgets.js"></script>
+<link href="libs/vis-4.16.1/vis.min.css" rel="stylesheet" />
+<script src="libs/vis-4.16.1/vis.min.js"></script>
+<link href="libs/timeline-0.4/timevis.css" rel="stylesheet" />
+<script src="libs/timevis-binding-0.4/timevis.js"></script>
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container-fluid main-container">
+
+
+<div class="row">
+<div class="col-sm-12">
+<div id="TOC">
+<ul>
+<li><a href="index.html#introduction">Introduction</a></li>
+<li class="has-sub"><a href="1-partie1.html#partie1"><span class="toc-section-number">1</span> Les grands principes d’une démarche d’open data</a><ul>
+<li class="has-sub"><a href="1-1-aux-origines-de-louverture-des-donnees-retours-sur-quelques-grandes-dates-fondatrices.html#aux-origines-de-louverture-des-donnees-retours-sur-quelques-grandes-dates-fondatrices"><span class="toc-section-number">1.1</span> Aux origines de l’ouverture des données : retours sur quelques grandes dates fondatrices</a><ul>
+<li><a href="1-1-aux-origines-de-louverture-des-donnees-retours-sur-quelques-grandes-dates-fondatrices.html#open-definition-la-definition-juridique-des-droits-de-lusager-du-savoir-ouvert"><span class="toc-section-number">1.1.1</span> 2005 : Open Definition, la définition juridique des droits de l’usager du savoir ouvert</a></li>
+<li><a href="1-1-aux-origines-de-louverture-des-donnees-retours-sur-quelques-grandes-dates-fondatrices.html#la-rencontre-dite-de-sebastopol-la-definition-des-grands-principes-de-lopen-data"><span class="toc-section-number">1.1.2</span> 2007 : la rencontre dite de Sebastopol, la définition des grands principes de l’open data</a></li>
+<li><a href="1-1-aux-origines-de-louverture-des-donnees-retours-sur-quelques-grandes-dates-fondatrices.html#raw-data-now-lappel-du-fondateur-du-web-a-louverture-des-donnees-brutes"><span class="toc-section-number">1.1.3</span> 2008 : “Raw Data Now”, l’appel du fondateur du web à l’ouverture des données brutes</a></li>
+<li><a href="1-1-aux-origines-de-louverture-des-donnees-retours-sur-quelques-grandes-dates-fondatrices.html#le-modele-en-5-etoiles-une-echelle-de-louverture-des-donnees"><span class="toc-section-number">1.1.4</span> 2010 : le modèle en 5 étoiles, une échelle de l’ouverture des données</a></li>
+<li><a href="1-1-aux-origines-de-louverture-des-donnees-retours-sur-quelques-grandes-dates-fondatrices.html#la-charte-internationale-de-lopen-data-vers-louverture-par-defaut"><span class="toc-section-number">1.1.5</span> 2013 : la charte internationale de l’open data, vers l’ouverture par défaut</a></li>
+</ul></li>
+<li><a href="1-2-revue-des-grands-principes-de-louverture-des-donnees.html#revue-des-grands-principes-de-louverture-des-donnees"><span class="toc-section-number">1.2</span> Revue des grands principes de l’ouverture des données</a></li>
+</ul></li>
+<li class="has-sub"><a href="2-partie2.html#partie2"><span class="toc-section-number">2</span> Le cadre juridique de l’open data en France</a><ul>
+<li><a href="2-1-la-loi-cada-accorder-aux-citoyens-un-droit-de-savoir.html#la-loi-cada-accorder-aux-citoyens-un-droit-de-savoir"><span class="toc-section-number">2.1</span> La loi CADA : accorder aux citoyens un “droit de savoir”</a></li>
+<li><a href="2-2-du-droit-dacces-au-droit-de-reutilisation.html#du-droit-dacces-au-droit-de-reutilisation"><span class="toc-section-number">2.2</span> Du droit d’accès au droit de réutilisation</a></li>
+<li><a href="2-3-loi-pour-une-republique-numerique-louverture-des-donnees-par-defaut.html#loi-pour-une-republique-numerique-louverture-des-donnees-par-defaut"><span class="toc-section-number">2.3</span> Loi pour une République Numérique : l’ouverture des données par défaut</a></li>
+</ul></li>
+<li class="has-sub"><a href="3-partie3.html#partie3"><span class="toc-section-number">3</span> Les bénéfices attendus d’une politique d’open data pour une collectivité</a><ul>
+<li><a href="3-1-du-point-de-vue-de-lorganisation-louverture-des-donnees-comme-un-levier-dinnovation-ouverte.html#du-point-de-vue-de-lorganisation-louverture-des-donnees-comme-un-levier-dinnovation-ouverte"><span class="toc-section-number">3.1</span> Du point de vue de l’organisation, l’ouverture des données comme un levier d’innovation ouverte</a></li>
+<li><a href="3-2-du-point-de-vue-du-systeme-dinformation-lopen-data-comme-levier-de-qualite-des-donnees.html#du-point-de-vue-du-systeme-dinformation-lopen-data-comme-levier-de-qualite-des-donnees"><span class="toc-section-number">3.2</span> Du point de vue du système d’information, l’open data comme levier de qualité des données</a></li>
+<li><a href="3-3-du-point-de-vue-du-citoyen-louverture-des-donnees-comme-pierre-angulaire-de-louverture-des-gouvernements.html#du-point-de-vue-du-citoyen-louverture-des-donnees-comme-pierre-angulaire-de-louverture-des-gouvernements"><span class="toc-section-number">3.3</span> Du point de vue du citoyen, l’ouverture des données comme pierre angulaire de l’ouverture des gouvernements</a></li>
+<li><a href="3-4-du-point-economique-soutien-a-la-creation-de-services-innovants.html#du-point-economique-soutien-a-la-creation-de-services-innovants"><span class="toc-section-number">3.4</span> Du point économique, soutien à la création de services innovants</a></li>
+</ul></li>
+<li class="has-sub"><a href="4-partie4.html#partie4"><span class="toc-section-number">4</span> Les facteurs clés de succès d’une politique d’open data</a><ul>
+<li><a href="4-1-obtenir-un-soutien-au-plus-haut-niveau.html#obtenir-un-soutien-au-plus-haut-niveau"><span class="toc-section-number">4.1</span> Obtenir un soutien au plus haut niveau</a></li>
+<li><a href="4-2-configurer-lorganisation-pour-louverture-des-donnees.html#configurer-lorganisation-pour-louverture-des-donnees"><span class="toc-section-number">4.2</span> Configurer l’organisation pour l’ouverture des données</a></li>
+<li><a href="4-3-faciliter-la-decouverte-et-lutilisation-des-donnees.html#faciliter-la-decouverte-et-lutilisation-des-donnees"><span class="toc-section-number">4.3</span> Faciliter la découverte et l’utilisation des données</a></li>
+<li><a href="4-4-rester-a-lecoute-et-interagir-avec-les-usagers.html#rester-a-lecoute-et-interagir-avec-les-usagers"><span class="toc-section-number">4.4</span> Rester à l’écoute et interagir avec les usagers</a></li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-12">
+<div id="faciliter-la-decouverte-et-lutilisation-des-donnees" class="section level2">
+<h2><span class="header-section-number">4.3</span> Faciliter la découverte et l’utilisation des données</h2>
+<p>Si l’on se fie aux deux classements internationaux de référence en matière d’open data, l’Open Data Barometer de la Web Foundation et l’Open Data Index d’Open Knowledge, les projets d’ouverture de données font face à deux écueils majeurs : la découvrabilité et la qualité des données.</p>
+<p>Concernant le premier point, il est courant d’entendre des usagers de données ouvertes déclarer qu’ils ont les plus grandes difficultés à trouver les données qu’ils/elles cherchent. Par exemple, Jules Grandin journaliste au Monde racontait récemment dans un <a href="https://twitter.com/JulesGrandin/status/935838409809125376">tweet</a> la « déception en 4 actes » de sa recherche de données sur la fréquentation des stations de RER en région parisienne. Après une recherche Google, un jeu de données sur data.gouv.fr intitulé « comptage voyageur sur RER » lui est proposé en premier résultat. Quand il télécharge le fichier, celui ne fait qu’une ligne et deux colonnes indiquant le nombre de voyageurs sur la ligne 0.</p>
+<p>Ce cas est révélateur de l’expérience courante et souvent décevante des usagers de données ouvertes. D’une part, les données ouvertes sont encore l’exception mais, quand elles sont ouvertes, il est très difficile de les localiser. Par exemple, le moteur de recherche de data.gouv.fr renvoie rarement vers les données qu’on cherche, c’est ce qu’a révélé une <a href="https://github.com/etalab/user-research/">étude auprès des utilisateurs du portail</a> réalisée par Thomas Parisot pour Etalab : tapez «élections » sur data.gouv.fr et vous trouverez plus de 650 jeux de données dont beaucoup ne sont pertinents que localement. Ainsi, pour l’Open Data Index, la question de la découvrabilité (<em>findability</em>) des données est un prérequis pour que l’open data remplisse son potentiel mais, à l’heure actuelle, la plupart des données sont très dures à localiser.</p>
+<p>Pour faciliter la découverte des données, on pourra d’abord s’assurer que les métadonnées soient complètes et décrivent correctement le jeu de données. Selon une étude récente réalisée par Datactivist sur les catalogues de données de 15 villes en France, seuls 4 % des jeux de données ont une description qui dépasse les 1000 caractères soit moins d’une demi-page A4. Difficile dans ces conditions de trouver les données et de comprendre ce qu’elles contiennent. On pourra aussi s’assurer que les jeux de données ne sont pas référencés uniquement sur le portail open data. Une mesure simple mais rarement entreprise consiste à s’assurer que le site de l’institution renvoie vers les jeux de données présents sur le portail. Dans une page sur les subventions aux associations, pourquoi ne pas renvoyer vers le jeu de données qui présente les subventions attribuées les années précédentes ?</p>
+<p>Enfin, il est important de s’assurer que le portail s’adresse à un large public et pas uniquement aux usagers habituels des données. Par exemple, il n’est expliqué nulle part sur data.gouv.fr comment ouvrir un fichier CSV même si, en France, la plupart des fichiers CSV utilisent le point-virgule et non la virgule (utilisée par défaut à l’étranger) pour séparer les valeurs. Cela demande souvent de changer le paramétrage du tableur ce qui peut dérouter de nombreux usagers. Pour éviter que les données ne s’adressent qu’à celles et ceux qui les manipulent au quotidien, on pourra entreprendre un travail de définition de personas comme l’a fait la ville de New York avec le projet « <a href="https://thereboot.github.io/moti-personas/">meet the users of open data</a>. »</p>
+<p>Concernant la qualité des données, l’Open Data Barometer a soulevé cet enjeu dans son <a href="http://opendatabarometer.org/4thedition/report/">quatrième rapport</a> :</p>
+<blockquote>
+<p>« Les données publiques sont souvent incomplètes, périmées, de mauvaise qualité et fragmentées. Dans la plupart des cas, les portails et les catalogues de données ouvertes sont alimentés manuellement résultant d’approches informelles de gestion des données. Les procédures, les échéances et les responsabilités sont fréquemment obscures parmi les institutions gouvernementales en charge de ce travail. »</p>
+</blockquote>
+<p>Il en résulte que, bien souvent, les données sont souvent inutilisables par manque de granularité temporelle et spatiale, l’absence de mise à jour, par une documentation qui ne permet pas de comprendre comment les données ont été produites et ce qu’elles décrivent. Ces problèmes de qualité ne concernent pas que les administrations pour lesquelles la diffusion de données est inédite, on retrouve ces problèmes pour certaines organisations dont la production de données constitue le cœur de l’activité. Par exemple, un usager des données ouvertes a listé dans un <a href="https://medium.com/@neveldo/m%C3%A9morandum-sur-ce-quil-ne-faut-pas-faire-en-open-data-avec-datainfogreffe-d7798bace00e">billet de blog</a> les problèmes qu’il a rencontrés avec les données ouvertes d’Infogreffe. Son billet décrit de nombreux problèmes auquel l’usager doit faire face : des colonnes qui disparaissent, sont créées ou renommées au fil des années, des colonnes “parasites” dont le nommage ou la documentation ne permettent pas de savoir ce qu’elles contiennent, des jeux de données annualisés qui contiennent plusieurs années de données, des colonnes en doublon, des coordonnées géographiques fausses, une documentation quasi inexistante…</p>
+<p>Pour éviter ces problèmes, on pourra s’appuyer sur la <a href="http://infolabs.io/sprint-qualite">méthodologie du sprint qualité</a> élaboré par la Fondation Internet Nouvelle Génération (FING) dans le cadre du projet Infolab. Cette méthodologie propose une centaine de points de contrôle pour s’assurer de la qualité d’un jeu de données. Pour une approche plus rapide, il peut être utile de faire un contrôle rapide des jeux de données (ce que les data scientists appellent un « <em>sanity check </em> ») en utilisant un outil simple comme <a href="https://databasic.io/en/wtfcsv/results/59cdd3907088b42cdeca5fbf#tooltip">WTF CSV</a> qui permet de prévisualiser le contenu d’un jeu de données et donne un résumé des valeurs extrêmes et manquantes pour chaque colonne.</p>
+</div>
+<p style="text-align: center;">
+<a href="4-2-configurer-lorganisation-pour-louverture-des-donnees.html"><button class="btn btn-default">Previous</button></a>
+<a href="4-4-rester-a-lecoute-et-interagir-avec-les-usagers.html"><button class="btn btn-default">Next</button></a>
+</p>
+</div>
+</div>
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+$(document).ready(function () {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+});
+
+</script>
+
+</body>
+<!-- </html> -->

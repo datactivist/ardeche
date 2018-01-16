@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta property="og:title" content="Rapport sur l’open data" />
+<meta property="og:type" content="book" />
+
+
+<meta property="og:description" content="Ce document vise à expliquer les essentiels d’une démarche d’ouverture des données et à décrire les facteurs de succès d’un projet d’open data." />
+<meta name="github-repo" content="datactivist/ardeche" />
+
+<meta name="author" content="Samuel Goëta (Datactivist) pour le Conseil départemental de l’Ardèche" />
+
+<meta name="date" content="2018-01-12" />
+
+
+<meta name="description" content="Ce document vise à expliquer les essentiels d’une démarche d’ouverture des données et à décrire les facteurs de succès d’un projet d’open data.">
+
+<title>Rapport sur l’open data</title>
+
+<script src="libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="libs/bootstrap-3.3.5/css/united.min.css" rel="stylesheet" />
+<script src="libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="libs/navigation-1.1/tabsets.js"></script>
+<script src="libs/htmlwidgets-0.9/htmlwidgets.js"></script>
+<link href="libs/vis-4.16.1/vis.min.css" rel="stylesheet" />
+<script src="libs/vis-4.16.1/vis.min.js"></script>
+<link href="libs/timeline-0.4/timevis.css" rel="stylesheet" />
+<script src="libs/timevis-binding-0.4/timevis.js"></script>
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container-fluid main-container">
+
+
+<div class="row">
+<div class="col-sm-12">
+<div id="TOC">
+<ul>
+<li><a href="index.html#introduction">Introduction</a></li>
+<li class="has-sub"><a href="1-partie1.html#partie1"><span class="toc-section-number">1</span> Les grands principes d’une démarche d’open data</a><ul>
+<li class="has-sub"><a href="1-1-aux-origines-de-louverture-des-donnees-retours-sur-quelques-grandes-dates-fondatrices.html#aux-origines-de-louverture-des-donnees-retours-sur-quelques-grandes-dates-fondatrices"><span class="toc-section-number">1.1</span> Aux origines de l’ouverture des données : retours sur quelques grandes dates fondatrices</a><ul>
+<li><a href="1-1-aux-origines-de-louverture-des-donnees-retours-sur-quelques-grandes-dates-fondatrices.html#open-definition-la-definition-juridique-des-droits-de-lusager-du-savoir-ouvert"><span class="toc-section-number">1.1.1</span> 2005 : Open Definition, la définition juridique des droits de l’usager du savoir ouvert</a></li>
+<li><a href="1-1-aux-origines-de-louverture-des-donnees-retours-sur-quelques-grandes-dates-fondatrices.html#la-rencontre-dite-de-sebastopol-la-definition-des-grands-principes-de-lopen-data"><span class="toc-section-number">1.1.2</span> 2007 : la rencontre dite de Sebastopol, la définition des grands principes de l’open data</a></li>
+<li><a href="1-1-aux-origines-de-louverture-des-donnees-retours-sur-quelques-grandes-dates-fondatrices.html#raw-data-now-lappel-du-fondateur-du-web-a-louverture-des-donnees-brutes"><span class="toc-section-number">1.1.3</span> 2008 : “Raw Data Now”, l’appel du fondateur du web à l’ouverture des données brutes</a></li>
+<li><a href="1-1-aux-origines-de-louverture-des-donnees-retours-sur-quelques-grandes-dates-fondatrices.html#le-modele-en-5-etoiles-une-echelle-de-louverture-des-donnees"><span class="toc-section-number">1.1.4</span> 2010 : le modèle en 5 étoiles, une échelle de l’ouverture des données</a></li>
+<li><a href="1-1-aux-origines-de-louverture-des-donnees-retours-sur-quelques-grandes-dates-fondatrices.html#la-charte-internationale-de-lopen-data-vers-louverture-par-defaut"><span class="toc-section-number">1.1.5</span> 2013 : la charte internationale de l’open data, vers l’ouverture par défaut</a></li>
+</ul></li>
+<li><a href="1-2-revue-des-grands-principes-de-louverture-des-donnees.html#revue-des-grands-principes-de-louverture-des-donnees"><span class="toc-section-number">1.2</span> Revue des grands principes de l’ouverture des données</a></li>
+</ul></li>
+<li class="has-sub"><a href="2-partie2.html#partie2"><span class="toc-section-number">2</span> Le cadre juridique de l’open data en France</a><ul>
+<li><a href="2-1-la-loi-cada-accorder-aux-citoyens-un-droit-de-savoir.html#la-loi-cada-accorder-aux-citoyens-un-droit-de-savoir"><span class="toc-section-number">2.1</span> La loi CADA : accorder aux citoyens un “droit de savoir”</a></li>
+<li><a href="2-2-du-droit-dacces-au-droit-de-reutilisation.html#du-droit-dacces-au-droit-de-reutilisation"><span class="toc-section-number">2.2</span> Du droit d’accès au droit de réutilisation</a></li>
+<li><a href="2-3-loi-pour-une-republique-numerique-louverture-des-donnees-par-defaut.html#loi-pour-une-republique-numerique-louverture-des-donnees-par-defaut"><span class="toc-section-number">2.3</span> Loi pour une République Numérique : l’ouverture des données par défaut</a></li>
+</ul></li>
+<li class="has-sub"><a href="3-partie3.html#partie3"><span class="toc-section-number">3</span> Les bénéfices attendus d’une politique d’open data pour une collectivité</a><ul>
+<li><a href="3-1-du-point-de-vue-de-lorganisation-louverture-des-donnees-comme-un-levier-dinnovation-ouverte.html#du-point-de-vue-de-lorganisation-louverture-des-donnees-comme-un-levier-dinnovation-ouverte"><span class="toc-section-number">3.1</span> Du point de vue de l’organisation, l’ouverture des données comme un levier d’innovation ouverte</a></li>
+<li><a href="3-2-du-point-de-vue-du-systeme-dinformation-lopen-data-comme-levier-de-qualite-des-donnees.html#du-point-de-vue-du-systeme-dinformation-lopen-data-comme-levier-de-qualite-des-donnees"><span class="toc-section-number">3.2</span> Du point de vue du système d’information, l’open data comme levier de qualité des données</a></li>
+<li><a href="3-3-du-point-de-vue-du-citoyen-louverture-des-donnees-comme-pierre-angulaire-de-louverture-des-gouvernements.html#du-point-de-vue-du-citoyen-louverture-des-donnees-comme-pierre-angulaire-de-louverture-des-gouvernements"><span class="toc-section-number">3.3</span> Du point de vue du citoyen, l’ouverture des données comme pierre angulaire de l’ouverture des gouvernements</a></li>
+<li><a href="3-4-du-point-economique-soutien-a-la-creation-de-services-innovants.html#du-point-economique-soutien-a-la-creation-de-services-innovants"><span class="toc-section-number">3.4</span> Du point économique, soutien à la création de services innovants</a></li>
+</ul></li>
+<li class="has-sub"><a href="4-partie4.html#partie4"><span class="toc-section-number">4</span> Les facteurs clés de succès d’une politique d’open data</a><ul>
+<li><a href="4-1-obtenir-un-soutien-au-plus-haut-niveau.html#obtenir-un-soutien-au-plus-haut-niveau"><span class="toc-section-number">4.1</span> Obtenir un soutien au plus haut niveau</a></li>
+<li><a href="4-2-configurer-lorganisation-pour-louverture-des-donnees.html#configurer-lorganisation-pour-louverture-des-donnees"><span class="toc-section-number">4.2</span> Configurer l’organisation pour l’ouverture des données</a></li>
+<li><a href="4-3-faciliter-la-decouverte-et-lutilisation-des-donnees.html#faciliter-la-decouverte-et-lutilisation-des-donnees"><span class="toc-section-number">4.3</span> Faciliter la découverte et l’utilisation des données</a></li>
+<li><a href="4-4-rester-a-lecoute-et-interagir-avec-les-usagers.html#rester-a-lecoute-et-interagir-avec-les-usagers"><span class="toc-section-number">4.4</span> Rester à l’écoute et interagir avec les usagers</a></li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-12">
+<div id="configurer-lorganisation-pour-louverture-des-donnees" class="section level2">
+<h2><span class="header-section-number">4.2</span> Configurer l’organisation pour l’ouverture des données</h2>
+<p>Ouvrir des données, c’est aussi ouvrir l’administration. Ce changement de paradigme implique de repenser le fonctionnement de l’organisation pour se préparer à ouvrir des données qui, pour certaines, n’avaient jusqu’alors pas fait l’objet d’une diffusion publique.</p>
+<p>Un projet d’open data doit d’abord avoir un·e chef d’orchestre. Le responsable de projet open data est un agent qui, si possible, connait bien le fonctionnement de l’institution, a déjà coordonné ou pris part à un projet transversal et dispose d’un soutien politique et administratif important. Le rôle du chef de projet est de coordonner tous les acteurs qui interviennent dans l’ouverture des données, de relancer les producteurs de données, de s’assurer de la qualité des données et de faire le lien avec les réutilisateurs.</p>
+<p>Le·la responsable de projet ne doit toutefois pas être la seule cheville ouvrière d’un projet open data, tout ne doit pas reposer sur elle ou lui. Il est important que les responsabilités soient partagées et clairement définies en structurant un réseau dans l’institution. La configuration la plus couramment adoptée dans les collectivités locales est celle d’un réseau de correspondants qui reprend la solution adoptée par l’Etat pour organiser le recensement des données publiques. Les correspondants sont les interlocuteurs privilégiés du responsable de projet : ils lui indiquent les données publiques ouvrables, le présentent auprès des producteurs de données et peut coordonner directement l’ouverture de certains jeux de données. Dans certaines institutions, cette configuration peut être toutefois trop lourde. On privilégiera alors une structuration du réseau plus informelle qui pourra, au fur et à mesure des échanges avec les agents, se formaliser pour que l’ouverture des données entre dans les missions des agents impliqués ce qui facilitera l’articulation avec leurs activités ordinaires.</p>
+<p>Sur le volet organisationnel, il faudra aussi prévoir au moins un organe de contrôle. Cet organe de contrôle peut être dans certains cas divisé entre un comité technique composé d’élus, qui déterminera les orientations du projet d’open data (création du portail, sélection des jeux de données à ouvrir en priorité, choix d’une licence, communication…) et d’un comité de pilotage composé d’élus et de cadres dirigeants de l’administration qui auront à faire les arbitrages notamment lorsque l’ouverture d’un jeu de données se heurte à des résistances politiques, administratives ou techniques. En effet, si le mandat est clair, les agents pourront dédier du temps à l’ouverture des données et pourront ouvrir sans difficultés des données jusqu’alors jugées « sensibles ».</p>
+<p>Enfin, il peut être utile de cartographier les soutiens et les résistances à la démarche d’ouverture des données. Le projet OpenDataLab préconise en amont de l’ouverture des données d’identifier les soutiens de la démarche avec un pouvoir suffisant, d’identifier les résistances et de prévoir des leviers pour les surmonter.</p>
+</div>
+<p style="text-align: center;">
+<a href="4-1-obtenir-un-soutien-au-plus-haut-niveau.html"><button class="btn btn-default">Previous</button></a>
+<a href="4-3-faciliter-la-decouverte-et-lutilisation-des-donnees.html"><button class="btn btn-default">Next</button></a>
+</p>
+</div>
+</div>
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+$(document).ready(function () {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+});
+
+</script>
+
+</body>
+<!-- </html> -->

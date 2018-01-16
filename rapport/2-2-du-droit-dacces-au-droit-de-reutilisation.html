@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta property="og:title" content="Rapport sur l’open data" />
+<meta property="og:type" content="book" />
+
+
+<meta property="og:description" content="Ce document vise à expliquer les essentiels d’une démarche d’ouverture des données et à décrire les facteurs de succès d’un projet d’open data." />
+<meta name="github-repo" content="datactivist/ardeche" />
+
+<meta name="author" content="Samuel Goëta (Datactivist) pour le Conseil départemental de l’Ardèche" />
+
+<meta name="date" content="2018-01-12" />
+
+
+<meta name="description" content="Ce document vise à expliquer les essentiels d’une démarche d’ouverture des données et à décrire les facteurs de succès d’un projet d’open data.">
+
+<title>Rapport sur l’open data</title>
+
+<script src="libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="libs/bootstrap-3.3.5/css/united.min.css" rel="stylesheet" />
+<script src="libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="libs/navigation-1.1/tabsets.js"></script>
+<script src="libs/htmlwidgets-0.9/htmlwidgets.js"></script>
+<link href="libs/vis-4.16.1/vis.min.css" rel="stylesheet" />
+<script src="libs/vis-4.16.1/vis.min.js"></script>
+<link href="libs/timeline-0.4/timevis.css" rel="stylesheet" />
+<script src="libs/timevis-binding-0.4/timevis.js"></script>
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container-fluid main-container">
+
+
+<div class="row">
+<div class="col-sm-12">
+<div id="TOC">
+<ul>
+<li><a href="index.html#introduction">Introduction</a></li>
+<li class="has-sub"><a href="1-partie1.html#partie1"><span class="toc-section-number">1</span> Les grands principes d’une démarche d’open data</a><ul>
+<li class="has-sub"><a href="1-1-aux-origines-de-louverture-des-donnees-retours-sur-quelques-grandes-dates-fondatrices.html#aux-origines-de-louverture-des-donnees-retours-sur-quelques-grandes-dates-fondatrices"><span class="toc-section-number">1.1</span> Aux origines de l’ouverture des données : retours sur quelques grandes dates fondatrices</a><ul>
+<li><a href="1-1-aux-origines-de-louverture-des-donnees-retours-sur-quelques-grandes-dates-fondatrices.html#open-definition-la-definition-juridique-des-droits-de-lusager-du-savoir-ouvert"><span class="toc-section-number">1.1.1</span> 2005 : Open Definition, la définition juridique des droits de l’usager du savoir ouvert</a></li>
+<li><a href="1-1-aux-origines-de-louverture-des-donnees-retours-sur-quelques-grandes-dates-fondatrices.html#la-rencontre-dite-de-sebastopol-la-definition-des-grands-principes-de-lopen-data"><span class="toc-section-number">1.1.2</span> 2007 : la rencontre dite de Sebastopol, la définition des grands principes de l’open data</a></li>
+<li><a href="1-1-aux-origines-de-louverture-des-donnees-retours-sur-quelques-grandes-dates-fondatrices.html#raw-data-now-lappel-du-fondateur-du-web-a-louverture-des-donnees-brutes"><span class="toc-section-number">1.1.3</span> 2008 : “Raw Data Now”, l’appel du fondateur du web à l’ouverture des données brutes</a></li>
+<li><a href="1-1-aux-origines-de-louverture-des-donnees-retours-sur-quelques-grandes-dates-fondatrices.html#le-modele-en-5-etoiles-une-echelle-de-louverture-des-donnees"><span class="toc-section-number">1.1.4</span> 2010 : le modèle en 5 étoiles, une échelle de l’ouverture des données</a></li>
+<li><a href="1-1-aux-origines-de-louverture-des-donnees-retours-sur-quelques-grandes-dates-fondatrices.html#la-charte-internationale-de-lopen-data-vers-louverture-par-defaut"><span class="toc-section-number">1.1.5</span> 2013 : la charte internationale de l’open data, vers l’ouverture par défaut</a></li>
+</ul></li>
+<li><a href="1-2-revue-des-grands-principes-de-louverture-des-donnees.html#revue-des-grands-principes-de-louverture-des-donnees"><span class="toc-section-number">1.2</span> Revue des grands principes de l’ouverture des données</a></li>
+</ul></li>
+<li class="has-sub"><a href="2-partie2.html#partie2"><span class="toc-section-number">2</span> Le cadre juridique de l’open data en France</a><ul>
+<li><a href="2-1-la-loi-cada-accorder-aux-citoyens-un-droit-de-savoir.html#la-loi-cada-accorder-aux-citoyens-un-droit-de-savoir"><span class="toc-section-number">2.1</span> La loi CADA : accorder aux citoyens un “droit de savoir”</a></li>
+<li><a href="2-2-du-droit-dacces-au-droit-de-reutilisation.html#du-droit-dacces-au-droit-de-reutilisation"><span class="toc-section-number">2.2</span> Du droit d’accès au droit de réutilisation</a></li>
+<li><a href="2-3-loi-pour-une-republique-numerique-louverture-des-donnees-par-defaut.html#loi-pour-une-republique-numerique-louverture-des-donnees-par-defaut"><span class="toc-section-number">2.3</span> Loi pour une République Numérique : l’ouverture des données par défaut</a></li>
+</ul></li>
+<li class="has-sub"><a href="3-partie3.html#partie3"><span class="toc-section-number">3</span> Les bénéfices attendus d’une politique d’open data pour une collectivité</a><ul>
+<li><a href="3-1-du-point-de-vue-de-lorganisation-louverture-des-donnees-comme-un-levier-dinnovation-ouverte.html#du-point-de-vue-de-lorganisation-louverture-des-donnees-comme-un-levier-dinnovation-ouverte"><span class="toc-section-number">3.1</span> Du point de vue de l’organisation, l’ouverture des données comme un levier d’innovation ouverte</a></li>
+<li><a href="3-2-du-point-de-vue-du-systeme-dinformation-lopen-data-comme-levier-de-qualite-des-donnees.html#du-point-de-vue-du-systeme-dinformation-lopen-data-comme-levier-de-qualite-des-donnees"><span class="toc-section-number">3.2</span> Du point de vue du système d’information, l’open data comme levier de qualité des données</a></li>
+<li><a href="3-3-du-point-de-vue-du-citoyen-louverture-des-donnees-comme-pierre-angulaire-de-louverture-des-gouvernements.html#du-point-de-vue-du-citoyen-louverture-des-donnees-comme-pierre-angulaire-de-louverture-des-gouvernements"><span class="toc-section-number">3.3</span> Du point de vue du citoyen, l’ouverture des données comme pierre angulaire de l’ouverture des gouvernements</a></li>
+<li><a href="3-4-du-point-economique-soutien-a-la-creation-de-services-innovants.html#du-point-economique-soutien-a-la-creation-de-services-innovants"><span class="toc-section-number">3.4</span> Du point économique, soutien à la création de services innovants</a></li>
+</ul></li>
+<li class="has-sub"><a href="4-partie4.html#partie4"><span class="toc-section-number">4</span> Les facteurs clés de succès d’une politique d’open data</a><ul>
+<li><a href="4-1-obtenir-un-soutien-au-plus-haut-niveau.html#obtenir-un-soutien-au-plus-haut-niveau"><span class="toc-section-number">4.1</span> Obtenir un soutien au plus haut niveau</a></li>
+<li><a href="4-2-configurer-lorganisation-pour-louverture-des-donnees.html#configurer-lorganisation-pour-louverture-des-donnees"><span class="toc-section-number">4.2</span> Configurer l’organisation pour l’ouverture des données</a></li>
+<li><a href="4-3-faciliter-la-decouverte-et-lutilisation-des-donnees.html#faciliter-la-decouverte-et-lutilisation-des-donnees"><span class="toc-section-number">4.3</span> Faciliter la découverte et l’utilisation des données</a></li>
+<li><a href="4-4-rester-a-lecoute-et-interagir-avec-les-usagers.html#rester-a-lecoute-et-interagir-avec-les-usagers"><span class="toc-section-number">4.4</span> Rester à l’écoute et interagir avec les usagers</a></li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-12">
+<div id="du-droit-dacces-au-droit-de-reutilisation" class="section level2">
+<h2><span class="header-section-number">2.2</span> Du droit d’accès au droit de réutilisation</h2>
+<p>La loi CADA a accordé aux citoyens un droit d’accès aux documents administratifs, la question de la réutilisation des données publiques a émergé dans les années 1990 avec le développement d’Internet facilitant la diffusion des données publiques et le développement de nouveaux services au public. Comme l’explique Boustany (2013), “la différence réside dans les enjeux : l’accès aux documents publics relève de la démocratie et de la transparence des institutions ; la réutilisation des données des données pour produire des services ou pour la connaissance présente des enjeux socio-économiques.”</p>
+<blockquote>
+<p><strong>Aller plus loin</strong> : lire l’article de Joumana Boustany (2013), « <a href="http://www.cairn.info/revue-les-cahiers-du-numerique-2013-1-page-21.htm">Accès et réutilisation des données publiques : État des lieux en France“</a> dans la revue <em>Les Cahiers du numérique</em></p>
+</blockquote>
+<p>La frise qui suit retrace les principales dates de l’apparition du droit de réutilisation des données, chacune de ces dates étant développée à la suite :</p>
+<div id="htmlwidget-9f3c60f7ea61a386413f" class="timevis html-widget" style="width:672px;height:480px;">
+<div class="btn-group zoom-menu">
+<button type="button" class="btn btn-default btn-lg zoom-in" title="Zoom in">+</button>
+<button type="button" class="btn btn-default btn-lg zoom-out" title="Zoom out">-</button>
+</div>
+</div>
+<script type="application/json" data-for="htmlwidget-9f3c60f7ea61a386413f">{"x":{"items":[{"id":"1","content":"Loi CADA","start":"1978-07-17"},{"id":"2","content":"Directive PSI","start":"2003-11-17"},{"id":"3","content":"Directive INSPIRE","start":"2007-03-14"},{"id":"4","content":"Révision de la directive PSI","start":"2013-06-13"},{"id":"5","content":"Loi Notre","start":"2015-08-07"},{"id":"6","content":"Loi Valter","start":"2015-12-28"},{"id":"7","content":"Loi pour une République Numérique","start":"2016-10-07"}],"groups":null,"showZoom":true,"zoomFactor":0.5,"fit":true,"options":[],"height":null,"api":[]},"evals":[],"jsHooks":[]}</script>
+<p>Le <strong>droit de réutilisation des informations publiques</strong> a été fortement soutenu par l’Union Européenne en particulier avec la <strong>Directive dite PSI (<em>Public Sector Information</em>) de 2003</strong> concernant la réutilisation des informations du secteur public qui fixe les règles minimales et les conditions de réutilisation de ces données publiques. Elle a été transposé en droit français par l’ordonnance du 6 juin 2005 qui autorise les usages commerciaux des données publiques et fixe le cadre de la réutilisation en autorisant notamment le paiement d’une redevance couvrant des frais autre que ceux de la reproduction des documents. En 2013, la <strong>révision de la directive PSI</strong> a instauré un véritable droit à réutilisation des données du secteur public pour lequel persiste toutefois une exception pour le secteur culturel (musées, bibliothèques, archives). La loi relative à la gratuité et aux modalités de la réutilisation des informations du secteur public, dite <strong>loi Valter de 2015</strong>, l’a traduit en droit français en instaurant le principe de gratuité généralisé à tous les secteurs, toutefois, les données des services publics industriels et commerciaux restent exclues ce qui a été abrogé par la loi pour une République Numérique que nous détaillerons dans la prochaine section.</p>
+<blockquote>
+<p><strong>Aller plus loin : </strong> lire le guide “<a href="http://www.opendatafrance.net/wp-content/uploads/2016/06/guideOD_communes_lois_juin2016_Web.pdf">Les lois régulant la donnée publique</a>” produit par Open Data France et la présentation “<a href="http://www.opendatalab.fr/images/doc/NouvellesVersions3/Projet-Open-Datalab---quelles-obligations-rglementaires-V2.1.pdf">Quelles obligations réglementaires pour l’ouverture des données?</a>” produite par le SGAR de la région Occitanie dans le cadre du projet Open DataLab</p>
+</blockquote>
+<p>Enfin, dernier élément du contexte juridique, la <strong>directive européenne Inspire du 14 mars 2007</strong> vise à l’harmonisation et à l’ouverture des données géographiques au niveau européen.Transposée en droit français par l’ordonnance du 21 octobre 2010, elle impose aux autorités publiques de recenser les données qui rentrent dans le périmètre concerné par la directive, de créer et de maintenir les métadonnées selon les normes établies par la commission européenne, de mettre les métadonnées et les données en suivant les standards européens. Pour certaines données qui ne pourraient être ouvertes au public, la directive impose le partage entre autorités publiques.</p>
+<blockquote>
+<p><strong>Aller plus loin : </strong> lire le document “<a href="http://formations-geomatiques.developpement-durable.gouv.fr/MIG/directive_inspire_neophytes/res/Directive_inspire_neophytes_papier.pdf">La directive Inspire pour les néophytes</a>” établi par la Mission de l’information géographique (MIG) du ministère du développement durable en 2016</p>
+</blockquote>
+</div>
+<p style="text-align: center;">
+<a href="2-1-la-loi-cada-accorder-aux-citoyens-un-droit-de-savoir.html"><button class="btn btn-default">Previous</button></a>
+<a href="2-3-loi-pour-une-republique-numerique-louverture-des-donnees-par-defaut.html"><button class="btn btn-default">Next</button></a>
+</p>
+</div>
+</div>
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+$(document).ready(function () {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+});
+
+</script>
+
+</body>
+<!-- </html> -->

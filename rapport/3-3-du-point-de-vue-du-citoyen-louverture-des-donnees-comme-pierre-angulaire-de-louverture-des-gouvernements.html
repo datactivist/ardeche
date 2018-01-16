@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta property="og:title" content="Rapport sur l’open data" />
+<meta property="og:type" content="book" />
+
+
+<meta property="og:description" content="Ce document vise à expliquer les essentiels d’une démarche d’ouverture des données et à décrire les facteurs de succès d’un projet d’open data." />
+<meta name="github-repo" content="datactivist/ardeche" />
+
+<meta name="author" content="Samuel Goëta (Datactivist) pour le Conseil départemental de l’Ardèche" />
+
+<meta name="date" content="2018-01-12" />
+
+
+<meta name="description" content="Ce document vise à expliquer les essentiels d’une démarche d’ouverture des données et à décrire les facteurs de succès d’un projet d’open data.">
+
+<title>Rapport sur l’open data</title>
+
+<script src="libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="libs/bootstrap-3.3.5/css/united.min.css" rel="stylesheet" />
+<script src="libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="libs/navigation-1.1/tabsets.js"></script>
+<script src="libs/htmlwidgets-0.9/htmlwidgets.js"></script>
+<link href="libs/vis-4.16.1/vis.min.css" rel="stylesheet" />
+<script src="libs/vis-4.16.1/vis.min.js"></script>
+<link href="libs/timeline-0.4/timevis.css" rel="stylesheet" />
+<script src="libs/timevis-binding-0.4/timevis.js"></script>
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container-fluid main-container">
+
+
+<div class="row">
+<div class="col-sm-12">
+<div id="TOC">
+<ul>
+<li><a href="index.html#introduction">Introduction</a></li>
+<li class="has-sub"><a href="1-partie1.html#partie1"><span class="toc-section-number">1</span> Les grands principes d’une démarche d’open data</a><ul>
+<li class="has-sub"><a href="1-1-aux-origines-de-louverture-des-donnees-retours-sur-quelques-grandes-dates-fondatrices.html#aux-origines-de-louverture-des-donnees-retours-sur-quelques-grandes-dates-fondatrices"><span class="toc-section-number">1.1</span> Aux origines de l’ouverture des données : retours sur quelques grandes dates fondatrices</a><ul>
+<li><a href="1-1-aux-origines-de-louverture-des-donnees-retours-sur-quelques-grandes-dates-fondatrices.html#open-definition-la-definition-juridique-des-droits-de-lusager-du-savoir-ouvert"><span class="toc-section-number">1.1.1</span> 2005 : Open Definition, la définition juridique des droits de l’usager du savoir ouvert</a></li>
+<li><a href="1-1-aux-origines-de-louverture-des-donnees-retours-sur-quelques-grandes-dates-fondatrices.html#la-rencontre-dite-de-sebastopol-la-definition-des-grands-principes-de-lopen-data"><span class="toc-section-number">1.1.2</span> 2007 : la rencontre dite de Sebastopol, la définition des grands principes de l’open data</a></li>
+<li><a href="1-1-aux-origines-de-louverture-des-donnees-retours-sur-quelques-grandes-dates-fondatrices.html#raw-data-now-lappel-du-fondateur-du-web-a-louverture-des-donnees-brutes"><span class="toc-section-number">1.1.3</span> 2008 : “Raw Data Now”, l’appel du fondateur du web à l’ouverture des données brutes</a></li>
+<li><a href="1-1-aux-origines-de-louverture-des-donnees-retours-sur-quelques-grandes-dates-fondatrices.html#le-modele-en-5-etoiles-une-echelle-de-louverture-des-donnees"><span class="toc-section-number">1.1.4</span> 2010 : le modèle en 5 étoiles, une échelle de l’ouverture des données</a></li>
+<li><a href="1-1-aux-origines-de-louverture-des-donnees-retours-sur-quelques-grandes-dates-fondatrices.html#la-charte-internationale-de-lopen-data-vers-louverture-par-defaut"><span class="toc-section-number">1.1.5</span> 2013 : la charte internationale de l’open data, vers l’ouverture par défaut</a></li>
+</ul></li>
+<li><a href="1-2-revue-des-grands-principes-de-louverture-des-donnees.html#revue-des-grands-principes-de-louverture-des-donnees"><span class="toc-section-number">1.2</span> Revue des grands principes de l’ouverture des données</a></li>
+</ul></li>
+<li class="has-sub"><a href="2-partie2.html#partie2"><span class="toc-section-number">2</span> Le cadre juridique de l’open data en France</a><ul>
+<li><a href="2-1-la-loi-cada-accorder-aux-citoyens-un-droit-de-savoir.html#la-loi-cada-accorder-aux-citoyens-un-droit-de-savoir"><span class="toc-section-number">2.1</span> La loi CADA : accorder aux citoyens un “droit de savoir”</a></li>
+<li><a href="2-2-du-droit-dacces-au-droit-de-reutilisation.html#du-droit-dacces-au-droit-de-reutilisation"><span class="toc-section-number">2.2</span> Du droit d’accès au droit de réutilisation</a></li>
+<li><a href="2-3-loi-pour-une-republique-numerique-louverture-des-donnees-par-defaut.html#loi-pour-une-republique-numerique-louverture-des-donnees-par-defaut"><span class="toc-section-number">2.3</span> Loi pour une République Numérique : l’ouverture des données par défaut</a></li>
+</ul></li>
+<li class="has-sub"><a href="3-partie3.html#partie3"><span class="toc-section-number">3</span> Les bénéfices attendus d’une politique d’open data pour une collectivité</a><ul>
+<li><a href="3-1-du-point-de-vue-de-lorganisation-louverture-des-donnees-comme-un-levier-dinnovation-ouverte.html#du-point-de-vue-de-lorganisation-louverture-des-donnees-comme-un-levier-dinnovation-ouverte"><span class="toc-section-number">3.1</span> Du point de vue de l’organisation, l’ouverture des données comme un levier d’innovation ouverte</a></li>
+<li><a href="3-2-du-point-de-vue-du-systeme-dinformation-lopen-data-comme-levier-de-qualite-des-donnees.html#du-point-de-vue-du-systeme-dinformation-lopen-data-comme-levier-de-qualite-des-donnees"><span class="toc-section-number">3.2</span> Du point de vue du système d’information, l’open data comme levier de qualité des données</a></li>
+<li><a href="3-3-du-point-de-vue-du-citoyen-louverture-des-donnees-comme-pierre-angulaire-de-louverture-des-gouvernements.html#du-point-de-vue-du-citoyen-louverture-des-donnees-comme-pierre-angulaire-de-louverture-des-gouvernements"><span class="toc-section-number">3.3</span> Du point de vue du citoyen, l’ouverture des données comme pierre angulaire de l’ouverture des gouvernements</a></li>
+<li><a href="3-4-du-point-economique-soutien-a-la-creation-de-services-innovants.html#du-point-economique-soutien-a-la-creation-de-services-innovants"><span class="toc-section-number">3.4</span> Du point économique, soutien à la création de services innovants</a></li>
+</ul></li>
+<li class="has-sub"><a href="4-partie4.html#partie4"><span class="toc-section-number">4</span> Les facteurs clés de succès d’une politique d’open data</a><ul>
+<li><a href="4-1-obtenir-un-soutien-au-plus-haut-niveau.html#obtenir-un-soutien-au-plus-haut-niveau"><span class="toc-section-number">4.1</span> Obtenir un soutien au plus haut niveau</a></li>
+<li><a href="4-2-configurer-lorganisation-pour-louverture-des-donnees.html#configurer-lorganisation-pour-louverture-des-donnees"><span class="toc-section-number">4.2</span> Configurer l’organisation pour l’ouverture des données</a></li>
+<li><a href="4-3-faciliter-la-decouverte-et-lutilisation-des-donnees.html#faciliter-la-decouverte-et-lutilisation-des-donnees"><span class="toc-section-number">4.3</span> Faciliter la découverte et l’utilisation des données</a></li>
+<li><a href="4-4-rester-a-lecoute-et-interagir-avec-les-usagers.html#rester-a-lecoute-et-interagir-avec-les-usagers"><span class="toc-section-number">4.4</span> Rester à l’écoute et interagir avec les usagers</a></li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-12">
+<div id="du-point-de-vue-du-citoyen-louverture-des-donnees-comme-pierre-angulaire-de-louverture-des-gouvernements" class="section level2">
+<h2><span class="header-section-number">3.3</span> Du point de vue du citoyen, l’ouverture des données comme pierre angulaire de l’ouverture des gouvernements</h2>
+L’ouverture des données prend part à un mouvement plus large, celui de l’ouverture des gouvernements (<em>open government</em>) qui postule que la transparence accrue par l’ouverture des données et d’autres mécanismes de réédition des comptes (<em>accountability</em>) permet de renforcer la participation des citoyens et de déveloper la collaboration avec la société civile dans la mise en oeuvre des politiques publiques. Ce schéma de l’association Démocratie Ouverte le résume bien :
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-7"></span>
+<img src="https://democratieouverte.org/media/default/0001/01/7c9acdbad8af2125e03d1aaa4eb33a3ffcc2b2b4.jpeg" alt="Schéma récapitulatif des principes du gouvernement ouvert" width="70%" />
+<p class="caption">
+Figure 3.1: Schéma récapitulatif des principes du gouvernement ouvert
+</p>
+</div>
+<p>Une politique d’open data peut donc ainsi <strong>renforcer la transparence de l’action publique</strong>. Par rapport aux dispositifs existants, les politiques d’open data permettent aux citoyens d’obtenir des données brutes dans leur plus fort niveau de granularité spatiale et temporelle, c’est-à-dire que les données sont mises à disposition avec le plus haut niveau de détail afin d’aller au plus proche des phénomènes. Par exemple, au lancement de data.gouv.fr en 2011, le ministère de l’intérieur a ouvert les données de la <a href="www.data.gouv.fr/fr/datasets/base-de-donnees-accidents-corporels-de-la-circulation/">base des accidents</a> en publiant chaque accident avec le détail des véhicules impliqués, la localisation précise et les conséquences pour les victimes là où auparavant on devait se contenter de données agrégées par mois et par département ou commune. Ce jeu de données a connu de très nombreuses réutilisations (recensées sur data.gouv.fr dans la <a href="www.data.gouv.fr/fr/datasets/base-de-donnees-accidents-corporels-de-la-circulation/">rubrique réutilisation du jeu de données</a> par des journalistes et des chercheurs qui ont pu produire des analyses et des visualisations à un niveau jusqu’alors impossible. L’open data permet ainsi de <strong>réduire les asymétries d’information</strong> dès lors que les citoyens disposent des mêmes données que l’administration.</p>
+<p>L’ouverture des données peut aussi permettre de <strong>servir la communication de l’institution en s’appuyant sur la visualisation des données.</strong> La défiance des citoyens à l’égard des acteurs publics atteignant des records, ouvrir des données et communiquer avec celle-ci peut permettre de prouver ce qui est dit par la communication publique en s’ouvrant à de nouvelles analyses si tant est que les citoyens peuvent bien refaire les calculs avec les données ouvertes. Par exemple, le département de la Gironde a publié un <a href="https://www.gironde.fr/un-budget-au-service-des-solidarites-humaine-et-territoriale#!/explorer">outil pédagogique</a> qui permet d’expliquer comment le budget est utilisé et d’explorer le détail des données qui sont par ailleurs ouvertes sur le portail open data. Les données ouvertes peuvent aussi permettent de suivre les engagements de la mandature. C’est ce qu’a fait la ville d’Issy les Moulineaux avec son <a href="http://rapportfinancier.issy.com/2016/">rapport financier</a> qui présente avec des visualisations interactives s’appuyant sur des donnés ouvertes l’utilisation des fonds publics. A une autre échelle, le maire de Los Angeles publie un <a href="http://dashboard.lamayor.org/">dashboard</a> qui présente les principaux indicateurs de son mandat et signale les domaines dans lesquels des efforts doivent être faits.</p>
+<p>Enfin, l’ouverture des données peut permettre de <strong>mieux impliquer les citoyens notamment dans les démarches de concertation</strong>. En disposant des données du débat, les citoyens sont en capacité de mieux comprendre les enjeux de la consultation, de contester les calculs de l’administration et de faire des propositions sur une base factuelle solide. A Toulouse, des <a href="https://metroligne3toulouse.debatpublic.fr/ateliers-cartographie">ateliers de cartographie citoyenne</a> ont été organisés dans le cadre du débat public sur la nouvelle ligne de métro permettant aux habitants de s’impliquer dans le tracé de la ligne. A Paris, la CAF a organisé des <a href="https://fr.okfn.org/2017/04/27/donner-envie-dapprendre-et-de-reussir-valoriser-les-capacites-aider-aux-devoirs-trouver-un-stage-de-3e-etc-ce-qua-revele-lexpedition-de-donnees-sur-le-theme-de-la-relat/">expéditions de données</a> avec l’association Ecole des Données pour consulter les habitants sur ses politiques sur la base de données et en produisant des données. Les citoyens peuvent aussi être impliqués dans la <strong>co-prodcution des données</strong> elles-même. La ville de Nantes a conçu le projet <a href="https://www.cartoquartiers.fr/">Cartoquartiers</a> pour que les citoyens puissent cartographier localement les services à leur disposition (recyclage, associations de quartiers, services publics…) afin de mieux valoriser la vie de quartier.</p>
+</div>
+<p style="text-align: center;">
+<a href="3-2-du-point-de-vue-du-systeme-dinformation-lopen-data-comme-levier-de-qualite-des-donnees.html"><button class="btn btn-default">Previous</button></a>
+<a href="3-4-du-point-economique-soutien-a-la-creation-de-services-innovants.html"><button class="btn btn-default">Next</button></a>
+</p>
+</div>
+</div>
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+$(document).ready(function () {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+});
+
+</script>
+
+</body>
+<!-- </html> -->

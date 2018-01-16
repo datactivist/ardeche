@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta property="og:title" content="Rapport sur l’open data" />
+<meta property="og:type" content="book" />
+
+
+<meta property="og:description" content="Ce document vise à expliquer les essentiels d’une démarche d’ouverture des données et à décrire les facteurs de succès d’un projet d’open data." />
+<meta name="github-repo" content="datactivist/ardeche" />
+
+<meta name="author" content="Samuel Goëta (Datactivist) pour le Conseil départemental de l’Ardèche" />
+
+<meta name="date" content="2018-01-12" />
+
+
+<meta name="description" content="Ce document vise à expliquer les essentiels d’une démarche d’ouverture des données et à décrire les facteurs de succès d’un projet d’open data.">
+
+<title>Rapport sur l’open data</title>
+
+<script src="libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="libs/bootstrap-3.3.5/css/united.min.css" rel="stylesheet" />
+<script src="libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="libs/navigation-1.1/tabsets.js"></script>
+<script src="libs/htmlwidgets-0.9/htmlwidgets.js"></script>
+<link href="libs/vis-4.16.1/vis.min.css" rel="stylesheet" />
+<script src="libs/vis-4.16.1/vis.min.js"></script>
+<link href="libs/timeline-0.4/timevis.css" rel="stylesheet" />
+<script src="libs/timevis-binding-0.4/timevis.js"></script>
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container-fluid main-container">
+
+
+<div class="row">
+<div class="col-sm-12">
+<div id="TOC">
+<ul>
+<li><a href="index.html#introduction">Introduction</a></li>
+<li class="has-sub"><a href="1-partie1.html#partie1"><span class="toc-section-number">1</span> Les grands principes d’une démarche d’open data</a><ul>
+<li class="has-sub"><a href="1-1-aux-origines-de-louverture-des-donnees-retours-sur-quelques-grandes-dates-fondatrices.html#aux-origines-de-louverture-des-donnees-retours-sur-quelques-grandes-dates-fondatrices"><span class="toc-section-number">1.1</span> Aux origines de l’ouverture des données : retours sur quelques grandes dates fondatrices</a><ul>
+<li><a href="1-1-aux-origines-de-louverture-des-donnees-retours-sur-quelques-grandes-dates-fondatrices.html#open-definition-la-definition-juridique-des-droits-de-lusager-du-savoir-ouvert"><span class="toc-section-number">1.1.1</span> 2005 : Open Definition, la définition juridique des droits de l’usager du savoir ouvert</a></li>
+<li><a href="1-1-aux-origines-de-louverture-des-donnees-retours-sur-quelques-grandes-dates-fondatrices.html#la-rencontre-dite-de-sebastopol-la-definition-des-grands-principes-de-lopen-data"><span class="toc-section-number">1.1.2</span> 2007 : la rencontre dite de Sebastopol, la définition des grands principes de l’open data</a></li>
+<li><a href="1-1-aux-origines-de-louverture-des-donnees-retours-sur-quelques-grandes-dates-fondatrices.html#raw-data-now-lappel-du-fondateur-du-web-a-louverture-des-donnees-brutes"><span class="toc-section-number">1.1.3</span> 2008 : “Raw Data Now”, l’appel du fondateur du web à l’ouverture des données brutes</a></li>
+<li><a href="1-1-aux-origines-de-louverture-des-donnees-retours-sur-quelques-grandes-dates-fondatrices.html#le-modele-en-5-etoiles-une-echelle-de-louverture-des-donnees"><span class="toc-section-number">1.1.4</span> 2010 : le modèle en 5 étoiles, une échelle de l’ouverture des données</a></li>
+<li><a href="1-1-aux-origines-de-louverture-des-donnees-retours-sur-quelques-grandes-dates-fondatrices.html#la-charte-internationale-de-lopen-data-vers-louverture-par-defaut"><span class="toc-section-number">1.1.5</span> 2013 : la charte internationale de l’open data, vers l’ouverture par défaut</a></li>
+</ul></li>
+<li><a href="1-2-revue-des-grands-principes-de-louverture-des-donnees.html#revue-des-grands-principes-de-louverture-des-donnees"><span class="toc-section-number">1.2</span> Revue des grands principes de l’ouverture des données</a></li>
+</ul></li>
+<li class="has-sub"><a href="2-partie2.html#partie2"><span class="toc-section-number">2</span> Le cadre juridique de l’open data en France</a><ul>
+<li><a href="2-1-la-loi-cada-accorder-aux-citoyens-un-droit-de-savoir.html#la-loi-cada-accorder-aux-citoyens-un-droit-de-savoir"><span class="toc-section-number">2.1</span> La loi CADA : accorder aux citoyens un “droit de savoir”</a></li>
+<li><a href="2-2-du-droit-dacces-au-droit-de-reutilisation.html#du-droit-dacces-au-droit-de-reutilisation"><span class="toc-section-number">2.2</span> Du droit d’accès au droit de réutilisation</a></li>
+<li><a href="2-3-loi-pour-une-republique-numerique-louverture-des-donnees-par-defaut.html#loi-pour-une-republique-numerique-louverture-des-donnees-par-defaut"><span class="toc-section-number">2.3</span> Loi pour une République Numérique : l’ouverture des données par défaut</a></li>
+</ul></li>
+<li class="has-sub"><a href="3-partie3.html#partie3"><span class="toc-section-number">3</span> Les bénéfices attendus d’une politique d’open data pour une collectivité</a><ul>
+<li><a href="3-1-du-point-de-vue-de-lorganisation-louverture-des-donnees-comme-un-levier-dinnovation-ouverte.html#du-point-de-vue-de-lorganisation-louverture-des-donnees-comme-un-levier-dinnovation-ouverte"><span class="toc-section-number">3.1</span> Du point de vue de l’organisation, l’ouverture des données comme un levier d’innovation ouverte</a></li>
+<li><a href="3-2-du-point-de-vue-du-systeme-dinformation-lopen-data-comme-levier-de-qualite-des-donnees.html#du-point-de-vue-du-systeme-dinformation-lopen-data-comme-levier-de-qualite-des-donnees"><span class="toc-section-number">3.2</span> Du point de vue du système d’information, l’open data comme levier de qualité des données</a></li>
+<li><a href="3-3-du-point-de-vue-du-citoyen-louverture-des-donnees-comme-pierre-angulaire-de-louverture-des-gouvernements.html#du-point-de-vue-du-citoyen-louverture-des-donnees-comme-pierre-angulaire-de-louverture-des-gouvernements"><span class="toc-section-number">3.3</span> Du point de vue du citoyen, l’ouverture des données comme pierre angulaire de l’ouverture des gouvernements</a></li>
+<li><a href="3-4-du-point-economique-soutien-a-la-creation-de-services-innovants.html#du-point-economique-soutien-a-la-creation-de-services-innovants"><span class="toc-section-number">3.4</span> Du point économique, soutien à la création de services innovants</a></li>
+</ul></li>
+<li class="has-sub"><a href="4-partie4.html#partie4"><span class="toc-section-number">4</span> Les facteurs clés de succès d’une politique d’open data</a><ul>
+<li><a href="4-1-obtenir-un-soutien-au-plus-haut-niveau.html#obtenir-un-soutien-au-plus-haut-niveau"><span class="toc-section-number">4.1</span> Obtenir un soutien au plus haut niveau</a></li>
+<li><a href="4-2-configurer-lorganisation-pour-louverture-des-donnees.html#configurer-lorganisation-pour-louverture-des-donnees"><span class="toc-section-number">4.2</span> Configurer l’organisation pour l’ouverture des données</a></li>
+<li><a href="4-3-faciliter-la-decouverte-et-lutilisation-des-donnees.html#faciliter-la-decouverte-et-lutilisation-des-donnees"><span class="toc-section-number">4.3</span> Faciliter la découverte et l’utilisation des données</a></li>
+<li><a href="4-4-rester-a-lecoute-et-interagir-avec-les-usagers.html#rester-a-lecoute-et-interagir-avec-les-usagers"><span class="toc-section-number">4.4</span> Rester à l’écoute et interagir avec les usagers</a></li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-12">
+<div id="loi-pour-une-republique-numerique-louverture-des-donnees-par-defaut" class="section level2">
+<h2><span class="header-section-number">2.3</span> Loi pour une République Numérique : l’ouverture des données par défaut</h2>
+<p>Promulguée le 7 octobre 2016, la <a href="https://www.legifrance.gouv.fr/affichTexte.do;jsessionid=B5632993E54F7CCC2606664B64CDF612.tpdila11v_1?cidTexte=JORFTEXT000033202746&amp;categorieLien=id">loi pour une République Numérique</a> a fait l’objet de près de quatre ans d’annonces, de consultations et de débat. Son titre 1 porte sur l’ouverture des données publiques et rend obligatoire la mise à disposition des données publiques communicables.</p>
+<p>La loi impose un principe d’<strong>ouverture des données par défaut</strong> à toutes les administrations et collectivités locales de plus de 3500 habitants et 50 agents qui concerne un <strong>périmètre très large</strong> comprenant les documents communiqués suite à des demandes CADA (depuis le 7 avril 2017), les “bases de données” et les données “dont la publication présente un intérêt économique, social, sanitaire ou environnemental” à partir d’octobre 2018. Rares sont les données publiques qui ne sont donc pas concernées par cette obligation d’ouverture. L’obligation concerne aussi les <strong>entreprises délégataires d’une mission de service public</strong> pour les données collectées ou produites à l’occasion de l’exploitation du service public faisant l’objet du contrat qui doivent être fournies gratuitement aux acteurs publics, en charge alors de les diffuser. La loi ne prévoit pas de sanctions pour les administrations qui ne respecteraient pas cette obligation.</p>
+<p>Toutefois, <strong>la notion de données</strong> qui délimite le périmètre concerné par l’obligation d’ouverture ne fait pas l’objet d’une définition juridique. Classiquement, on définit les données comme une forme de représentation d’une réalité destinée généralement à être traitées par un ordinateur, à l’opposée des informations généralement destinées à être traitées par des humains. Cette définition est une parmi d’autres, la notion de données faisant l’objet de débats dans la littérature sur lequel nous n’allons pas nous étendre ici. Dans le droit, la seule référence que nous connaissons est <a href="j.mp/EnrichissementVocabulaireInformatique">un arrêté du 22 décembre 1981</a> relatif à l’enrichissement du vocabulaire informatique définit la donnée comme la « représentation d’une information sous une forme conventionnelle destinée à faciliter son traitement (en anglais : data). » L’absence de définition juridique pourrait devenir problématique dès lors que des contentieux tenteront de faire appliquer l’obligation d’ouverture des données prévus par la loi pour une République numérique.</p>
+<p>Sur ce point, la loi pour une République Numérique consacre <strong>l’utilisation de standards ouverts</strong> pour la communication des documents administratifs afin de faciliter la réutilisation des données par les machines L’administration (ministères, collectivités territoriales, établissements publics…) sera dorénavant tenue, lorsqu’elle communique un document administratif au format électronique, de le mettre à disposition du citoyen “dans un standard ouvert, aisément réutilisable et exploitable par un système de traitement automatisé”. Concrètement, cela empêche la publication de fichiers PDF là où un fichier CSV pourrait être diffusé, conformément aux principes internationaux de l’open data évoqué dans la section précédente.</p>
+<p>Enfin, la loi <strong>limite par décret les licences</strong> qui peuvent être utilisées par les administrations. Le <a href="https://www.legifrance.gouv.fr/eli/decret/2017/4/27/2017-638/jo/texte">décret du 27 avril 2017</a> autorise deux licences : la Licence Ouverte d’Etalab et la licence OpenDataBaseLicense (nous reviendrons à la suite sur le contenu de ces licences). Les administrations qui voudront utiliser une autre licence devront remplir une procédure d’homologation auprès des sercices du Premier ministre qui impose notamment un exposé des motifs ayant conduit conduit à choisir une licence hors de la liste fixée dans le décret et une consultation des usagers affectés par la licence proposée. L’homologation doit être faite pour chaque jeu de données même si la licence reste la même.</p>
+<blockquote>
+<p><strong>Aller plus loin</strong> : lire l’article “<a href="https://www.nextinpact.com/news/101397-on-vous-explique-volet-open-data-loi-lemaire.htm">On vous explique le volet « Open Data » de la loi Lemaire</a>” publié par le site NextInpact</p>
+</blockquote>
+<p>Ces deux licences offrent un choix aux administrations, la licence ouverte étant plus permissive que la licence ODBL qui a été conçue dans une logique de “pot commun” permettant de garantir que les données resteront ouvertes après leur réutilisation.</p>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-6"></span>
+<img src="img/licences.png" alt="Panorama des licences de données ouvertes (source : Open Data Lab" width="60%" />
+<p class="caption">
+Figure 2.1: Panorama des licences de données ouvertes (source : Open Data Lab
+</p>
+</div>
+<blockquote>
+<p><strong>Aller plus loin :</strong> le guide <a href="https://www6.inra.fr/datapartage/Zoom-sur/Guide-d-analyse-du-cadre-juridique-en-France">“Ouverture des données de la recherche. Guide d’analyse du cadre juridique en France</a> &quot; de l’INRA présente dans sa fiche numéro 6 une comparaison complète de la licence ouverte et de la licence ODBL</p>
+</blockquote>
+<div id="discourse-comments">
+
+</div>
+<script type="text/javascript">
+   var discourseUrl = "https://teamopendata.org/",
+      discourseEmbedUrl = 'https://datactivist.coop/ardeche/rapport/partie2.html';
+
+      (function() {
+         var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
+         d.src = discourseUrl + 'javascripts/embed.js';
+         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
+      })();
+   </script>
+</section>
+
+</div>
+<!-- </div> -->
+<p style="text-align: center;">
+<a href="2-2-du-droit-dacces-au-droit-de-reutilisation.html"><button class="btn btn-default">Previous</button></a>
+<a href="3-partie3.html"><button class="btn btn-default">Next</button></a>
+</p>
+</div>
+</div>
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+$(document).ready(function () {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+});
+
+</script>
+
+</body>
+<!-- </html> -->
