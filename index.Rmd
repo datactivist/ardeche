@@ -3,7 +3,10 @@ title: "Rapport sur l'open data"
 author: "Samuel Goëta (Datactivist) pour le Conseil départemental de l'Ardèche"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
-output: bookdown::gitbook
+output: 
+  bookdown::gitbook:
+    includes:
+      in_header: matomo.html
 documentclass: book
 #bibliography: []
 biblio-style: apalike
