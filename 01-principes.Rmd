@@ -60,7 +60,7 @@ knitr::include_graphics(rep('./img/hug.png'))
 
 Pour l'inventeur du web, les administrations n’arrêtent le *database hugging* qu’à partir du moment où elles ont présenté leurs données sur un beau site web. Il a demandé d’inverser cette logique et d’abord de fournir les données. 
 
-> Hans appelle ça le * database hugging *. Vous serrez votre base de données. Vous ne la laissez pas partir tant que vous n'en avez pas fait un joli site web. […] Faites-en donc un joli site. Mais avant cela, donnez-nous accès aux données non altérées. On veut des données. On veut des données non altérées. **Il faut que nous demandions des données brutes maintenant.**
+> Hans appelle ça le *database hugging*. Vous serrez votre base de données. Vous ne la laissez pas partir tant que vous n'en avez pas fait un joli site web. […] Faites-en donc un joli site. Mais avant cela, donnez-nous accès aux données non altérées. On veut des données. On veut des données non altérées. **Il faut que nous demandions des données brutes maintenant.**
 
 Tim Berners-Lee demande alors au public de la conférence TED de crier « *Raw data now!* » ("Des données brutes maintenant !") à l’attention des administrations (figure \@ref(fig:raw)).
 ```{r raw, echo=FALSE, out.width='70%', fig.align = 'center', fig.cap='Tim Berners-Lee, lors de sa conférence TED de 2009, Tim Berners-Lee appelle le public à crier « *raw data now* »'}
