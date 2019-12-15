@@ -1,15 +1,14 @@
 <!DOCTYPE html>
-<html >
-
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
 <head>
 
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Rapport sur l’open data</title>
-  <meta name="description" content="Ce document vise à expliquer les essentiels d’une démarche d’ouverture des données et à décrire les facteurs de succès d’un projet d’open data.">
-  <meta name="generator" content="bookdown 0.5 and GitBook 2.6.7">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapitre 1 Les grands principes d’une démarche d’open data | Rapport sur l’open data</title>
+  <meta name="description" content="Ce document vise à expliquer les essentiels d’une démarche d’ouverture des données et à décrire les facteurs de succès d’un projet d’open data." />
+  <meta name="generator" content="bookdown 0.16 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Rapport sur l’open data" />
+  <meta property="og:title" content="Chapitre 1 Les grands principes d’une démarche d’open data | Rapport sur l’open data" />
   <meta property="og:type" content="book" />
   
   
@@ -17,29 +16,31 @@
   <meta name="github-repo" content="datactivist/ardeche" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Rapport sur l’open data" />
+  <meta name="twitter:title" content="Chapitre 1 Les grands principes d’une démarche d’open data | Rapport sur l’open data" />
   
   <meta name="twitter:description" content="Ce document vise à expliquer les essentiels d’une démarche d’ouverture des données et à décrire les facteurs de succès d’un projet d’open data." />
   
 
-<meta name="author" content="Samuel Goëta (Datactivist) pour le Conseil départemental de l’Ardèche">
+<meta name="author" content="Samuel Goëta (Datactivist) pour le Conseil départemental de l’Ardèche" />
 
 
-<meta name="date" content="2018-01-22">
+<meta name="date" content="2019-12-15" />
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="index.html">
-<link rel="next" href="partie2.html">
+<link rel="prev" href="index.html"/>
+<link rel="next" href="partie2.html"/>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
 
 
 
@@ -47,11 +48,13 @@
 
 
 
-<script src="libs/htmlwidgets-0.9/htmlwidgets.js"></script>
+
+
+<script src="libs/htmlwidgets-1.5.1/htmlwidgets.js"></script>
 <link href="libs/vis-4.16.1/vis.min.css" rel="stylesheet" />
 <script src="libs/vis-4.16.1/vis.min.js"></script>
 <link href="libs/timeline-0.4/timevis.css" rel="stylesheet" />
-<script src="libs/timevis-binding-0.4/timevis.js"></script>
+<script src="libs/timevis-binding-0.5/timevis.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
 <script src="libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -62,12 +65,12 @@
   var _paq = _paq || [];
   /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
   _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
-  _paq.push(["setCookieDomain", "*.datactivi.st"]);
+  _paq.push(["setCookieDomain", "*.datactivist.coop"]);
   _paq.push(["setDomains", ["*.datactivi.st","*.datactivist.coop"]]);
   _paq.push(['trackPageView']);
   _paq.push(['enableLinkTracking']);
   (function() {
-    var u="//datactivist.innocraft.cloud/";
+    var u="//matomo.datactivist.coop/";
     _paq.push(['setTrackerUrl', u+'piwik.php']);
     _paq.push(['setSiteId', '1']);
     var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
@@ -96,31 +99,30 @@
 <li class="divider"></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Introduction</a></li>
 <li class="chapter" data-level="1" data-path="partie1.html"><a href="partie1.html"><i class="fa fa-check"></i><b>1</b> Les grands principes d’une démarche d’open data</a><ul>
-<li class="chapter" data-level="1.1" data-path="partie1.html"><a href="partie1.html#aux-origines-de-louverture-des-donnees-retours-sur-quelques-grandes-dates-fondatrices"><i class="fa fa-check"></i><b>1.1</b> Aux origines de l’ouverture des données : retours sur quelques grandes dates fondatrices</a><ul>
-<li class="chapter" data-level="1.1.1" data-path="partie1.html"><a href="partie1.html#open-definition-la-definition-juridique-des-droits-de-lusager-du-savoir-ouvert"><i class="fa fa-check"></i><b>1.1.1</b> 2005 : Open Definition, la définition juridique des droits de l’usager du savoir ouvert</a></li>
-<li class="chapter" data-level="1.1.2" data-path="partie1.html"><a href="partie1.html#la-rencontre-dite-de-sebastopol-la-definition-des-grands-principes-de-lopen-data"><i class="fa fa-check"></i><b>1.1.2</b> 2007 : la rencontre dite de Sebastopol, la définition des grands principes de l’open data</a></li>
-<li class="chapter" data-level="1.1.3" data-path="partie1.html"><a href="partie1.html#raw-data-now-lappel-du-fondateur-du-web-a-louverture-des-donnees-brutes"><i class="fa fa-check"></i><b>1.1.3</b> 2008 : “Raw Data Now”, l’appel du fondateur du web à l’ouverture des données brutes</a></li>
-<li class="chapter" data-level="1.1.4" data-path="partie1.html"><a href="partie1.html#le-modele-en-5-etoiles-une-echelle-de-louverture-des-donnees"><i class="fa fa-check"></i><b>1.1.4</b> 2010 : le modèle en 5 étoiles, une échelle de l’ouverture des données</a></li>
-<li class="chapter" data-level="1.1.5" data-path="partie1.html"><a href="partie1.html#la-charte-internationale-de-lopen-data-vers-louverture-par-defaut"><i class="fa fa-check"></i><b>1.1.5</b> 2013 : la charte internationale de l’open data, vers l’ouverture par défaut</a></li>
+<li class="chapter" data-level="1.1" data-path="partie1.html"><a href="partie1.html#aux-origines-de-louverture-des-données-retours-sur-quelques-grandes-dates-fondatrices"><i class="fa fa-check"></i><b>1.1</b> Aux origines de l’ouverture des données : retours sur quelques grandes dates fondatrices</a><ul>
+<li class="chapter" data-level="1.1.1" data-path="partie1.html"><a href="partie1.html#open-definition-la-définition-juridique-des-droits-de-lusager-du-savoir-ouvert"><i class="fa fa-check"></i><b>1.1.1</b> 2005 : Open Definition, la définition juridique des droits de l’usager du savoir ouvert</a></li>
+<li class="chapter" data-level="1.1.2" data-path="partie1.html"><a href="partie1.html#la-rencontre-dite-de-sebastopol-la-définition-des-grands-principes-de-lopen-data"><i class="fa fa-check"></i><b>1.1.2</b> 2007 : la rencontre dite de Sebastopol, la définition des grands principes de l’open data</a></li>
+<li class="chapter" data-level="1.1.3" data-path="partie1.html"><a href="partie1.html#raw-data-now-lappel-du-fondateur-du-web-à-louverture-des-données-brutes"><i class="fa fa-check"></i><b>1.1.3</b> 2008 : “Raw Data Now”, l’appel du fondateur du web à l’ouverture des données brutes</a></li>
+<li class="chapter" data-level="1.1.4" data-path="partie1.html"><a href="partie1.html#la-charte-internationale-de-lopen-data-vers-louverture-par-défaut"><i class="fa fa-check"></i><b>1.1.4</b> 2013 : la charte internationale de l’open data, vers l’ouverture par défaut</a></li>
 </ul></li>
-<li class="chapter" data-level="1.2" data-path="partie1.html"><a href="partie1.html#revue-des-grands-principes-de-louverture-des-donnees"><i class="fa fa-check"></i><b>1.2</b> Revue des grands principes de l’ouverture des données</a></li>
+<li class="chapter" data-level="1.2" data-path="partie1.html"><a href="partie1.html#revue-des-grands-principes-de-louverture-des-données"><i class="fa fa-check"></i><b>1.2</b> Revue des grands principes de l’ouverture des données</a></li>
 </ul></li>
 <li class="chapter" data-level="2" data-path="partie2.html"><a href="partie2.html"><i class="fa fa-check"></i><b>2</b> Le cadre juridique de l’open data en France</a><ul>
 <li class="chapter" data-level="2.1" data-path="partie2.html"><a href="partie2.html#la-loi-cada-accorder-aux-citoyens-un-droit-de-savoir"><i class="fa fa-check"></i><b>2.1</b> La loi CADA : accorder aux citoyens un “droit de savoir”</a></li>
-<li class="chapter" data-level="2.2" data-path="partie2.html"><a href="partie2.html#du-droit-dacces-au-droit-de-reutilisation"><i class="fa fa-check"></i><b>2.2</b> Du droit d’accès au droit de réutilisation</a></li>
-<li class="chapter" data-level="2.3" data-path="partie2.html"><a href="partie2.html#loi-pour-une-republique-numerique-louverture-des-donnees-par-defaut"><i class="fa fa-check"></i><b>2.3</b> Loi pour une République Numérique : l’ouverture des données par défaut</a></li>
+<li class="chapter" data-level="2.2" data-path="partie2.html"><a href="partie2.html#du-droit-daccès-au-droit-de-réutilisation"><i class="fa fa-check"></i><b>2.2</b> Du droit d’accès au droit de réutilisation</a></li>
+<li class="chapter" data-level="2.3" data-path="partie2.html"><a href="partie2.html#loi-pour-une-république-numérique-louverture-des-données-par-défaut"><i class="fa fa-check"></i><b>2.3</b> Loi pour une République Numérique : l’ouverture des données par défaut</a></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="partie3.html"><a href="partie3.html"><i class="fa fa-check"></i><b>3</b> Les bénéfices attendus d’une politique d’open data pour une collectivité</a><ul>
-<li class="chapter" data-level="3.1" data-path="partie3.html"><a href="partie3.html#du-point-de-vue-de-lorganisation-louverture-des-donnees-comme-un-levier-dinnovation-ouverte"><i class="fa fa-check"></i><b>3.1</b> Du point de vue de l’organisation, l’ouverture des données comme un levier d’innovation ouverte</a></li>
-<li class="chapter" data-level="3.2" data-path="partie3.html"><a href="partie3.html#du-point-de-vue-du-systeme-dinformation-lopen-data-comme-levier-de-qualite-des-donnees"><i class="fa fa-check"></i><b>3.2</b> Du point de vue du système d’information, l’open data comme levier de qualité des données</a></li>
-<li class="chapter" data-level="3.3" data-path="partie3.html"><a href="partie3.html#du-point-de-vue-du-citoyen-louverture-des-donnees-comme-pierre-angulaire-de-louverture-des-gouvernements"><i class="fa fa-check"></i><b>3.3</b> Du point de vue du citoyen, l’ouverture des données comme pierre angulaire de l’ouverture des gouvernements</a></li>
-<li class="chapter" data-level="3.4" data-path="partie3.html"><a href="partie3.html#du-point-economique-soutien-a-la-creation-de-services-innovants"><i class="fa fa-check"></i><b>3.4</b> Du point économique, soutien à la création de services innovants</a></li>
+<li class="chapter" data-level="3.1" data-path="partie3.html"><a href="partie3.html#du-point-de-vue-de-lorganisation-louverture-des-données-comme-un-levier-dinnovation-ouverte"><i class="fa fa-check"></i><b>3.1</b> Du point de vue de l’organisation, l’ouverture des données comme un levier d’innovation ouverte</a></li>
+<li class="chapter" data-level="3.2" data-path="partie3.html"><a href="partie3.html#du-point-de-vue-du-système-dinformation-lopen-data-comme-levier-de-qualité-des-données"><i class="fa fa-check"></i><b>3.2</b> Du point de vue du système d’information, l’open data comme levier de qualité des données</a></li>
+<li class="chapter" data-level="3.3" data-path="partie3.html"><a href="partie3.html#du-point-de-vue-du-citoyen-louverture-des-données-comme-pierre-angulaire-de-louverture-des-gouvernements"><i class="fa fa-check"></i><b>3.3</b> Du point de vue du citoyen, l’ouverture des données comme pierre angulaire de l’ouverture des gouvernements</a></li>
+<li class="chapter" data-level="3.4" data-path="partie3.html"><a href="partie3.html#du-point-économique-soutien-à-la-création-de-services-innovants"><i class="fa fa-check"></i><b>3.4</b> Du point économique, soutien à la création de services innovants</a></li>
 </ul></li>
 <li class="chapter" data-level="4" data-path="partie4.html"><a href="partie4.html"><i class="fa fa-check"></i><b>4</b> Les facteurs clés de succès d’une politique d’open data</a><ul>
 <li class="chapter" data-level="4.1" data-path="partie4.html"><a href="partie4.html#obtenir-un-soutien-au-plus-haut-niveau"><i class="fa fa-check"></i><b>4.1</b> Obtenir un soutien au plus haut niveau</a></li>
-<li class="chapter" data-level="4.2" data-path="partie4.html"><a href="partie4.html#configurer-lorganisation-pour-louverture-des-donnees"><i class="fa fa-check"></i><b>4.2</b> Configurer l’organisation pour l’ouverture des données</a></li>
-<li class="chapter" data-level="4.3" data-path="partie4.html"><a href="partie4.html#faciliter-la-decouverte-et-lutilisation-des-donnees"><i class="fa fa-check"></i><b>4.3</b> Faciliter la découverte et l’utilisation des données</a></li>
-<li class="chapter" data-level="4.4" data-path="partie4.html"><a href="partie4.html#rester-a-lecoute-et-interagir-avec-les-usagers"><i class="fa fa-check"></i><b>4.4</b> Rester à l’écoute et interagir avec les usagers</a></li>
+<li class="chapter" data-level="4.2" data-path="partie4.html"><a href="partie4.html#configurer-lorganisation-pour-louverture-des-données"><i class="fa fa-check"></i><b>4.2</b> Configurer l’organisation pour l’ouverture des données</a></li>
+<li class="chapter" data-level="4.3" data-path="partie4.html"><a href="partie4.html#faciliter-la-découverte-et-lutilisation-des-données"><i class="fa fa-check"></i><b>4.3</b> Faciliter la découverte et l’utilisation des données</a></li>
+<li class="chapter" data-level="4.4" data-path="partie4.html"><a href="partie4.html#rester-à-lécoute-et-interagir-avec-les-usagers"><i class="fa fa-check"></i><b>4.4</b> Rester à l’écoute et interagir avec les usagers</a></li>
 </ul></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Publié avec bookdown</a></li>
@@ -145,11 +147,11 @@
 <div id="partie1" class="section level1">
 <h1><span class="header-section-number">Chapitre 1</span> Les grands principes d’une démarche d’open data</h1>
 <p>Comme nous allons le voir dans cette première partie, le cadre juridique de l’ouverture des données repose sur des racines anciennnes mais l’open data en tant que tel est apparu récemment, il y a moins de 10 ans, avec des grands principes qui se sont consolidés avec le temps. Dans cette première partie, nous allons revoir ensemble les grands principes de l’open data : leurs origines, leur adaptation en France et les bénéfices pour une collectivité à les adopter.</p>
-<div id="aux-origines-de-louverture-des-donnees-retours-sur-quelques-grandes-dates-fondatrices" class="section level2">
+<div id="aux-origines-de-louverture-des-données-retours-sur-quelques-grandes-dates-fondatrices" class="section level2">
 <h2><span class="header-section-number">1.1</span> Aux origines de l’ouverture des données : retours sur quelques grandes dates fondatrices</h2>
 <p>En cinq épisodes, revenons sur les principaux moments de définition des grands principes internationaux de l’open data. Cette partie permettra de replacer l’open data dans son contexte d’apparition, de mieux connaitre les acteurs à l’origine des grands principes et de comprendre les textes de référence de l’ouverture des données. Nous résumerons les grands principes de l’ouverture des données dans la partie suivante.</p>
 <p>Avant de revenir sur ces différents épisodes, il faut rappeler que le terme d’open data a des origines plus anciennes que la dernière décennie sur laquelle nous allons nous concentrer ici. Le terme est apparu pour la première fois dans les années 1970 dans les accords qu’a signés la NASA avec des pays partenaires en vue du partage de données satellitaires. C’est en 1995 qu’on en voit le premier usage public aux Etats-Unis dans un rapport de la National Academy of Science intitutlé <em>On the Full and Open Exchange of Scientific Data</em>.</p>
-<div id="open-definition-la-definition-juridique-des-droits-de-lusager-du-savoir-ouvert" class="section level3">
+<div id="open-definition-la-définition-juridique-des-droits-de-lusager-du-savoir-ouvert" class="section level3">
 <h3><span class="header-section-number">1.1.1</span> 2005 : Open Definition, la définition juridique des droits de l’usager du savoir ouvert</h3>
 <p>En août 2005,le chercheur en économie Rufus Pollock, fondateur de l’Open Knowledge Foundation (OKFN), une organisation à but non lucratif qui vise à “promouvoir l’ouverture de toutes les formes de savoir”, invitait les premiers membres de l’OKFN et son réseau de partenaires à adopter collectivement une définition du savoir ouvert. Dans son <a href="https://lists.okfn.org/pipermail/okfn-discuss/2005-August/005233.html">appel à commentaire</a> (<em>Request for Comments</em>), Pollock souhaitait décliner une série de conditions essentiellement juridiques permettant d’établir qu’un savoir est ouvert. La définition devait aussi servir à énumérer les licences ouvertes spécifiques au savoir et à fédérer des disciplines éparses.</p>
 <p>Cette définition se fonde directement de l’expérience du mouvement de l’<em>open source</em>, l’ouverture du code informatique, une généalogie clairement affirmée dans le texte de l’Open Definition qui crédite l’<em>Open Source Definition</em> comme la ressource essentielle qui a servi à la rédaction de la définition mais aussi à forger l’idée même d’ouverture. Cet effort de définition s’inscrit aussi dans le prolongement du travail de Creative Commons qui a défini une série de licences assorties à des droits et devoirs des usagers d’un savoir ouvert.</p>
@@ -159,17 +161,18 @@
 <p><strong>Aller plus loin</strong> : lire l<a href="http://opendefinition.org/od/1.1/fr/">’Open Definition</a>.</p>
 </blockquote>
 </div>
-<div id="la-rencontre-dite-de-sebastopol-la-definition-des-grands-principes-de-lopen-data" class="section level3">
+<div id="la-rencontre-dite-de-sebastopol-la-définition-des-grands-principes-de-lopen-data" class="section level3">
 <h3><span class="header-section-number">1.1.2</span> 2007 : la rencontre dite de Sebastopol, la définition des grands principes de l’open data</h3>
 <p>Après avoir découvert les fondements juridiques de l’ouverture des données avec l’Open Definition, nous partons maintenant aux Etats Unis à la rencontre de ceux qui ont défini les principes encore aujourd’hui en vigueur de l’open data.</p>
-Le 22 octobre 2007, une invitation est envoyée aux membres d’un groupe de travail sur l’Open Government pour une rencontre les 7 et 8 décembre 2007 à Sebastopol en Californie au sein des locaux de la maison d’édition O’Reilly. Les organisateurs de cette rencontre sont Carl Malamud qui dirige le site associatif <a href="PublicRessource.org" class="uri">PublicRessource.org</a> et Tim O’Reilly, le directeur de la maison d’édition O’Reilly spécialisée dans les sujets technologiques et l’édition électronique ouverte. Dans le texte de l’invitation, les deux organisateurs se sont fixés pour ambition de lister dix principes de l’<em>open government</em> afin que les candidats à l’élection du président des États-Unis suivent leurs recommandations.Trente participants sélectionnés par les organisateurs en fonction de leur affiliation à une organisation qui demande, ouvre ou réutilise des données ont accepté l’invitation de Malamud et O’Reilly.
+Le 22 octobre 2007, une invitation est envoyée aux membres d’un groupe de travail sur l’Open Government pour une rencontre les 7 et 8 décembre 2007 à Sebastopol en Californie au sein des locaux de la maison d’édition O’Reilly. Les organisateurs de cette rencontre sont Carl Malamud qui dirige le site associatif <a href="PublicRessource.org">PublicRessource.org</a> et Tim O’Reilly, le directeur de la maison d’édition O’Reilly spécialisée dans les sujets technologiques et l’édition électronique ouverte. Dans le texte de l’invitation, les deux organisateurs se sont fixés pour ambition de lister dix principes de l’<em>open government</em> afin que les candidats à l’élection du président des États-Unis suivent leurs recommandations.Trente participants sélectionnés par les organisateurs en fonction de leur affiliation à une organisation qui demande, ouvre ou réutilise des données ont accepté l’invitation de Malamud et O’Reilly.
 <div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-1"></span>
 <img src="img/photofamille.jpg" alt="La photo de famille des participants de la rencontre de Sebastopol" width="70%" />
 <p class="caption">
 Figure 1.1: La photo de famille des participants de la rencontre de Sebastopol
 </p>
 </div>
-<p>Au termes des deux jours de la rencontre de Sebastopol, les participants ont défini ensemble <a href="www.opengovdata.org">une série de huit critères</a> pour que des données gouvernementales soient considérées comme ouvertes : - <strong>complètes</strong> : toutes les données publiques doivent être rendues disponibles dans les limites légales liées à la vie privée ou la sécurité ;</p>
+<p>Au termes des deux jours de la rencontre de Sebastopol, les participants ont défini ensemble <a href="www.opengovdata.org">une série de huit critères</a> pour que des données gouvernementales soient considérées comme ouvertes :
+- <strong>complètes</strong> : toutes les données publiques doivent être rendues disponibles dans les limites légales liées à la vie privée ou la sécurité ;</p>
 <ul>
 <li><p><strong>primaires</strong> : les données ouvertes sont telles que collectées à la source, non-agrégées avec le plus haut niveau de granularité ;</p></li>
 <li><p><strong>fraiches</strong> : les données doivent être disponibles dès qu’elles sont produites (<em>timely</em>) ;</p></li>
@@ -179,12 +182,12 @@ Figure 1.1: La photo de famille des participants de la rencontre de Sebastopol
 <li><p><strong>dans un format ouvert</strong> : ce format ne doit pas être la propriété d’une organisation en particulier et doit faire l’objet d’une gouvernance commune par ses usagers ;</p></li>
 <li><p><strong>avec une licence ouverte</strong> : les principes de Sebastopol vont plus loin que l’Open Definition en demandant que les données soient placées dans le domaine public.</p></li>
 </ul>
-<p>Ces principes sont aujourd’hui encore le fondement de l’open data. Les participants de la rencontre de Sebastopol ont rempli leur objectif, à savoir l’adoption de ces principes par le futur président des États-Unis puisque le 21 janvier 2009, jour de son investiture à la Maison-Blanche, Barack Obama a signé deux mémorandums sur l’<em>Open Government</em>. Le premier exigeait une plus grande coopération des agences gouvernementales aux procédures du <em>Freedom of Information Act</em> (FOIA). Le second réclamait que les agences gouvernementales mettent en œuvre des politiques en faveur de la transparence, la collaboration avec la société civile et la participation des citoyens qui a abouti au lancement en 2009 de <a href="data.gov" class="uri">data.gov</a>, le premier portail open data national.</p>
+<p>Ces principes sont aujourd’hui encore le fondement de l’open data. Les participants de la rencontre de Sebastopol ont rempli leur objectif, à savoir l’adoption de ces principes par le futur président des États-Unis puisque le 21 janvier 2009, jour de son investiture à la Maison-Blanche, Barack Obama a signé deux mémorandums sur l’<em>Open Government</em>. Le premier exigeait une plus grande coopération des agences gouvernementales aux procédures du <em>Freedom of Information Act</em> (FOIA). Le second réclamait que les agences gouvernementales mettent en œuvre des politiques en faveur de la transparence, la collaboration avec la société civile et la participation des citoyens qui a abouti au lancement en 2009 de <a href="data.gov">data.gov</a>, le premier portail open data national.</p>
 <blockquote>
 <p><strong>Aller plus loin</strong> : le site <a href="https://opengovdata.org/">OpenGovData.org</a> propose une version annotée des principes de Sebastopol (en anglais).</p>
 </blockquote>
 </div>
-<div id="raw-data-now-lappel-du-fondateur-du-web-a-louverture-des-donnees-brutes" class="section level3">
+<div id="raw-data-now-lappel-du-fondateur-du-web-à-louverture-des-données-brutes" class="section level3">
 <h3><span class="header-section-number">1.1.3</span> 2008 : “Raw Data Now”, l’appel du fondateur du web à l’ouverture des données brutes</h3>
 <p>Tim Berners-Lee, l’inventeur du web, a formulé son appel à l’ouverture des données brutes le 4 février 2009 à Long Beach en Californie lors d’une conférence TED. TED est un réseau de conférences retransmises gratuitement sur le web qui vise à présenter simplement des idées et à convaincre l’audience de s’impliquer.</p>
 <p>Dans la vidéo de la conférence dépassant aujourd’hui le million de vue, Tim Berners raconte d’abord son parcours au sein du CERN, l’accélérateur de particules, où il a développé le web pour facilier le partage des documents produits dans son laboratoire. Berners-Lee dit ressentir la même difficulté pour accéder aux données qu’à l’époque de la création avec les documents. Pourtant, les données déterminent une grande partie de nos vies. Il se félicite de la naissance de l’open data et des engagements pris par le président Obama à son arrivée à la Maison Blanche (son discours est intervenu deux mois après la signature des mémorandums) mais il estime que l’ouverture des données implique aussi de transformer les attitudes des administrations.</p>
@@ -210,10 +213,8 @@ Figure 1.3: Tim Berners-Lee, lors de sa conférence TED de 2009, Tim Berners-Lee
 <blockquote>
 <p><strong>Aller plus loin</strong> : la <a href="https://www.ted.com/talks/tim_berners_lee_on_the_next_web?language=fr">vidéo de la conférence de Tim Berners-Lee</a> est traduite en français sur le site de TED.</p>
 </blockquote>
-</div>
-<div id="le-modele-en-5-etoiles-une-echelle-de-louverture-des-donnees" class="section level3">
-<h3><span class="header-section-number">1.1.4</span> 2010 : le modèle en 5 étoiles, une échelle de l’ouverture des données</h3>
-<p>Après avoir exigé l’ouverture des données brutes, Tim Berners-Lee a appelé à l’utilisation de formats ouverts de données. En 2010, il propose un modèle en cinq étapes, une hiérarchie de la première à la cinquième étoile qui, à la manière de la classification des hôtels, permet aux réutilisateurs de distinguer la qualité des données. Ce modèle s’adressait particulièrement aux gouvernements pour les encourager à adopter le Linked Data pour ouvrir leurs données.</p>
+<p>###2010 : le modèle en 5 étoiles, une échelle de l’ouverture des données
+Après avoir exigé l’ouverture des données brutes, Tim Berners-Lee a appelé à l’utilisation de formats ouverts de données. En 2010, il propose un modèle en cinq étapes, une hiérarchie de la première à la cinquième étoile qui, à la manière de la classification des hôtels, permet aux réutilisateurs de distinguer la qualité des données. Ce modèle s’adressait particulièrement aux gouvernements pour les encourager à adopter le Linked Data pour ouvrir leurs données.</p>
 Sur la <a href="http://www.cafepress.com/w3c_shop.597992118">boutique en ligne du W3C</a>, le consortium en charge des standards du web, Berners-Lee vend même des tasses sur lesquelles figure son modèle en cinq étoiles. Il a déclaré espérer que la circulation de ces tasses dans les bureaux inciterait à ouvrir et lier toujours plus de données.<br />
 
 <div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-3"></span>
@@ -236,8 +237,8 @@ Figure 1.4: Tasse du W3C reprenant le modèle en cinq étoiles de Tim Berners-Le
 <p><strong>Aller plus loin</strong> : le site <a href="http://5stardata.info/fr/">5stardata.info</a> présente en détail le modèle cinq étoiles de Tim Berners-Lee.</p>
 </blockquote>
 </div>
-<div id="la-charte-internationale-de-lopen-data-vers-louverture-par-defaut" class="section level3">
-<h3><span class="header-section-number">1.1.5</span> 2013 : la charte internationale de l’open data, vers l’ouverture par défaut</h3>
+<div id="la-charte-internationale-de-lopen-data-vers-louverture-par-défaut" class="section level3">
+<h3><span class="header-section-number">1.1.4</span> 2013 : la charte internationale de l’open data, vers l’ouverture par défaut</h3>
 <p>Les 17 et 18 juin 2013 à Loughe-Erne en Irlande du Nord, le Premier ministre britannique, David Cameron, accueillait la réunion du G8, la rencontre de huit chefs d’État parmi les plus grandes puissances économiques mondiales (Allemagne, Canada, États-Unis d’Amérique, France, Royaume-Uni, Italie, Japon, Russie). L’agenda comportait une session sur l’adoption d’une charte sur l’open data.</p>
 <div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-4"></span>
 <img src="img/charte.jpg" alt="Session de travail des membres du G8 en 2013" width="60%" />
@@ -262,7 +263,7 @@ Figure 1.5: Session de travail des membres du G8 en 2013
 </blockquote>
 </div>
 </div>
-<div id="revue-des-grands-principes-de-louverture-des-donnees" class="section level2">
+<div id="revue-des-grands-principes-de-louverture-des-données" class="section level2">
 <h2><span class="header-section-number">1.2</span> Revue des grands principes de l’ouverture des données</h2>
 <p>Dans la section précédente, nous avons vu les grands moments lors desquels l’open data a été défini. Nous allons maintenant résumer les principes de l’open data en reprenant les <a href="https://sunlightfoundation.com/policy/documents/ten-open-data-principles/">dix points définis par la Sunlight Foundation</a>. Il n’y a pas de différence majeure avec les définitions de l’open data évoquées précédemment mais la Sunlight Foundation a réussi à synthétiser l’essentiel dans ce document.</p>
 <p>Les données doivent être :</p>
@@ -309,11 +310,13 @@ Figure 1.5: Session de travail des membres du G8 en 2013
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
 <script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
 <script>
 gitbook.require(["gitbook"], function(gitbook) {
 gitbook.start({
@@ -321,11 +324,11 @@ gitbook.start({
 "github": false,
 "facebook": true,
 "twitter": true,
-"google": false,
+"linkedin": false,
 "weibo": false,
-"instapper": false,
+"instapaper": false,
 "vk": false,
-"all": ["facebook", "google", "twitter", "weibo", "instapaper"]
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
 },
 "fontsettings": {
 "theme": "white",
@@ -335,6 +338,14 @@ gitbook.start({
 "edit": {
 "link": "https://github.com/datactivist/ardeche/edit/master/01-principes.Rmd",
 "text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
 },
 "download": ["rapport-opendata.epub", "rapport-opendata.pdf"],
 "toc": {
